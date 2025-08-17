@@ -9,13 +9,32 @@ update_HelloGitHub_repos.py
 
 import time
 import re
-
+from datetime import datetime
 from playwright.sync_api import sync_playwright
 from bs4 import BeautifulSoup
 
 README_FILE = "README.md"
 MAX_REPOS = 8
 URL = "https://hellogithub.com/"
+
+def relative_time(updated_str):
+    if updated_str == "未知":
+        return updated_str
+    updated_dt = datetime.strptime(updated_str, "%Y-%m-%d %H:%M:%S")
+    now = datetime.utcnow()
+    delta = now - updated_dt
+
+    days = delta.days
+    seconds = delta.seconds
+    if days > 0:
+        return f"{days} 天前"
+    hours = seconds // 3600
+    if hours > 0:
+        return f"{hours} 小时前"
+    minutes = (seconds % 3600) // 60
+    if minutes > 0:
+        return f"{minutes} 分钟前"
+    return "刚刚"
 
 def get_hellogithub_top_repos(max_repos=8):
     with sync_playwright() as p:
@@ -62,11 +81,10 @@ def get_hellogithub_top_repos(max_repos=8):
 def generate_markdown(repos):
     for repo in repos:
         md += f"{i}. [{repo['name']}]({repo['link']})  \n"
-        md += f'  <a href="{repo["link"]}" target="_blank" style="text-decoration:none;">\n'
-        md += f'      <strong>{repo["name"]}</strong><br>\n'
-        md += f'      作者: {repo["author"]}<br>\n'
-        md += f'      语言: {repo["lang"]}<br>\n'
-        md += f'  </a>\n\n'
+        md += f'      {repo["desc"]}\n'
+        md += f"   - 作者: `{repo['author']}`  \n"
+        md += f"   - 语言: `{repo['lang']}`  \n"
+        md += f"   - 更新时间: `{relative_time(repo.get('updated','未知'))}`  \n\n"
     return md
     
 def update_readme(markdown):
