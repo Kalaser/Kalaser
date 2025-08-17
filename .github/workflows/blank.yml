@@ -17,6 +17,9 @@ jobs:
         with:
           python-version: "3.x"
 
+      - name: 安装依赖
+        run: pip install requests
+        
       - name: 运行脚本更新 README
         run: |
           python update_readme.py
