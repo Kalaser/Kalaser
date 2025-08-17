@@ -15,25 +15,8 @@ README_FILE = "README.md"
 MAX_REPOS = 8
 URL = "https://hellogithub.com/"
 
-def relative_time(updated_str):
-    if updated_str == "未知":
-        return updated_str
-    updated_dt = datetime.strptime(updated_str, "%Y-%m-%d %H:%M:%S")
-    now = datetime.utcnow()
-    delta = now - updated_dt
 
-    days = delta.days
-    seconds = delta.seconds
-    if days > 0:
-        return f"{days} 天前"
-    hours = seconds // 3600
-    if hours > 0:
-        return f"{hours} 小时前"
-    minutes = (seconds % 3600) // 60
-    if minutes > 0:
-        return f"{minutes} 分钟前"
-    return "刚刚"
-
+repo['updated'] = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
 def get_hellogithub_top_repos(max_repos=8):
     with sync_playwright() as p:
         browser = p.chromium.launch()
@@ -78,9 +61,9 @@ def generate_markdown(repos):
     for i, repo in enumerate(repos, 1):
         md += f"{i}. [{repo['name']}]({repo['link']})  \n"
         md += f"   - 描述: {repo['desc']}  \n"
-        md += f"   - 作者: `{repo['author']}`  \n"
+        md += f"   - 简介: `{repo['author']}`  \n"
         md += f"   - 语言: `{repo['lang']}`  \n"
-        md += f"   - 更新时间: `{relative_time(repo.get('updated','未知'))}`  \n\n"
+        md += f"   - 更新时间: `{(repo.get('updated','未知'))}`  \n\n"
     return md
 
 def update_readme(markdown):
