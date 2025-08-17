@@ -33,4 +33,26 @@ jobs:
           git add README.md
           git commit -m "update README" || echo "No changes"
           git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:main
+  generate-snake:
+    runs-on: ubuntu-latest
+    needs: update-readme
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v3
+
+      - name: 生成贪吃蛇贡献动画
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: Kalaser   # ← 改成你的 GitHub 用户名 
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: 推送到 output 分支
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
