@@ -44,17 +44,27 @@ def generate_markdown(repos):
         md += f"*作者*: {repo['author']} · *语言*: {repo['lang']}  \n\n"
     return md
 
+# def update_readme(markdown):
+#     with open(README_FILE, "r", encoding="utf-8") as f:
+#         content = f.read()
+#     content = re.sub(
+#         r"<!--POPULAR_REPOS-->.*?<!--POPULAR_REPOS_END-->",
+#         f"<!--POPULAR_REPOS-->\n{markdown}<!--POPULAR_REPOS_END-->",
+#         content,
+#         flags=re.DOTALL
+#     )
+#     with open(README_FILE, "w", encoding="utf-8") as f:
+#         f.write(content)
 def update_readme(markdown):
     with open(README_FILE, "r", encoding="utf-8") as f:
         content = f.read()
-    content = re.sub(
-        r"<!--POPULAR_REPOS-->.*?<!--POPULAR_REPOS_END-->",
-        f"<!--POPULAR_REPOS-->\n{markdown}<!--POPULAR_REPOS_END-->",
-        content,
-        flags=re.DOTALL
-    )
+
+    pattern = r"<!--POPULAR_REPOS-->(.|\s)*?<!--POPULAR_REPOS_END-->"
+    replacement = f"<!--POPULAR_REPOS-->\n{markdown}<!--POPULAR_REPOS_END-->"
+    new_content = re.sub(pattern, replacement, content, flags=re.DOTALL)
+
     with open(README_FILE, "w", encoding="utf-8") as f:
-        f.write(content)
+        f.write(new_content)
 
 # def main():
 #     repos = get_hellogithub_top_repos(MAX_REPOS)
