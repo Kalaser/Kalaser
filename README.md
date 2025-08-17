@@ -28,23 +28,25 @@
 ---
 ## 🔥 HelloGitHub 热门仓库
 <!--POPULAR_REPOS-->
-[**GLM-4.5**](https://hellogithub.com/repository/zai-org/GLM-4.5) — 智谱开源的旗舰模型系列  
-*作者*: GLM-4.5—智谱开源的旗舰模型系列1这是一个专为智能体应用打造的基础模型。GLM-4.5 总参数为 355B 激活参数为 32B，在工具调用、网页浏览、软件工程、前端编程领域进行了优化，可以接入 zai-org·Python·19 天前3k · *语言*: Python  
+<div align="center">
 
-[**KittenTTS**](https://hellogithub.com/repository/KittenML/KittenTTS) — 轻量小巧的文本转语音模型  
-*作者*: KittenTTS—轻量小巧的文本转语音模型1这是一款轻量级文本转语音（TTS）模型，体积小于 25MB、无需 GPU 即可流畅运行。它能够将文本高质量地转换为自然流畅的语音，支持多种音色，适用于多种设备和KittenML·Python·5 天前943 · *语言*: Python  
+{% for repo in repos %}
+<div style="display:inline-block; border-radius:12px; border:1px solid #e1e4e8; margin:8px; padding:12px; width:280px; background-color:#f9f9f9;">
+  <a href="{{ repo.link }}" target="_blank" style="text-decoration:none;">
+    <div style="display:flex; align-items:center; margin-bottom:8px;">
+      <img src="https://github.com/{{ repo.author }}.png" width="40" height="40" style="border-radius:50%; margin-right:8px;">
+      <div>
+        <h3 style="margin:0; font-size:16px; color:#0366d6;">{{ repo.name }}</h3>
+        <p style="margin:0; font-size:12px; color:#586069;">{{ repo.lang }}</p>
+      </div>
+    </div>
+    <p style="font-size:13px; color:#24292f; min-height:40px;">{{ repo.desc }}</p>
+    <p style="font-size:12px; color:#586069;">作者: {{ repo.author }}</p>
+  </a>
+</div>
+{% endfor %}
 
-[**langextract**](https://hellogithub.com/repository/google/langextract) — 基于大模型的智能文本提取库  
-*作者*: langextract—基于大模型的智能文本提取库这是一款由 Google 开源的 Python 库，可实现自动识别和提取文本内容。它内置源文本的精确定位与交互式可视化功能。用户只需提供简短提示和少量示例，便可google·Python·5 天前452 · *语言*: Python  
-
-[**kiss-translator**](https://hellogithub.com/repository/fishjar/kiss-translator) — 开源的网页双语对照翻译工具  
-*作者*: kiss-translator—开源的网页双语对照翻译工具这是一款开源的双语对照翻译浏览器插件。它为用户提供网页内容的快速双语对照翻译功能，便于在阅读外语网页时同步查看原文与译文，支持多翻译引擎（Google、Deepfishjar·JavaScript·5 天前586 · *语言*: JavaScript  
-
-[**tinyauth**](https://hellogithub.com/repository/steveiliop56/tinyauth) — 开源的零代码身份认证中间件  
-*作者*: tinyauth—开源的零代码身份认证中间件这是一个 Go 语言开发的极简认证中间件，可通过 Docker 快速部署。它能为任何 Web 应用或服务一键添加登录界面或 OAuth 登录（Google、Gisteveiliop56·Go·5 天前512 · *语言*: Go  
-
-[**mcp-for-beginners**](https://hellogithub.com/repository/microsoft/mcp-for-beginners) — 微软开源的 MCP 教程  
-*作者*: mcp-for-beginners—微软开源的 MCP 教程该项目是微软开源的 MCP 基础教程，内容围绕 Python、.NET、Java、TypeScript 等多种编程语言，通过丰富的代码实例与系统化的学习路径，帮microsoft·Python·5 天前470 · *语言*: Python  
+</div> 
 
 <!--POPULAR_REPOS_END-->
 ---
