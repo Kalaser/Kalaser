@@ -54,7 +54,7 @@ def get_hellogithub_top_repos(max_repos=8):
             "author": author,
             "lang": lang
         })
-    browser.close()
+    # browser.close()
     print(f"- {name} | {author} | {lang}")  # 调试
     return top_repos
         
