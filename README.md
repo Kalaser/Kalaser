@@ -49,7 +49,7 @@
 
 ## 🐍 贪吃蛇提交动画
 <p align="center">
-<img src="https://github.com/Kalaser/Kalaser/blob/output/github-contribution-grid-snake.svg" alt="snake"/>
+  <img src="https://raw.githubusercontent.com/Kalaser/Kalaser/output/github-contribution-grid-snake.svg" />
 </p>
 
 ---
