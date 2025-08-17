@@ -3,6 +3,9 @@ import re
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
 
@@ -20,8 +23,21 @@ def get_hellogithub_top_repos(max_repos=6):
     driver = webdriver.Chrome(service=service, options=chrome_options)
     
     driver.get(URL)
-    time.sleep(5)  # 等待 JS 渲染完成
-    
+
+    # 等待热门仓库元素出现
+    try:
+        WebDriverWait(driver, 15).until(
+            EC.presence_of_element_located((By.CSS_SELECTOR, "a.block[href^='/repository/']"))
+        )
+    except:
+        print("等待超时，未找到热门仓库元素")
+        driver.quit()
+        return []
+
+    # 滚动页面保证懒加载
+    driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+    time.sleep(3)
+
     soup = BeautifulSoup(driver.page_source, "html.parser")
     driver.quit()
     
@@ -61,10 +77,6 @@ def update_readme(markdown):
     with open(README_FILE, "r", encoding="utf-8") as f:
         content = f.read()
 
-    start = content.find("<!--POPULAR_REPOS-->")
-    end = content.find("<!--POPULAR_REPOS_END-->")
-    print(f"占位符起始位置: {start}, 结束位置: {end}")
-
     pattern = r"<!--POPULAR_REPOS-->(.|\s)*?<!--POPULAR_REPOS_END-->"
     replacement = f"<!--POPULAR_REPOS-->\n{markdown}<!--POPULAR_REPOS_END-->"
     new_content = re.sub(pattern, replacement, content, flags=re.DOTALL)
@@ -76,5 +88,8 @@ def update_readme(markdown):
 
 if __name__ == "__main__":
     repos = get_hellogithub_top_repos(MAX_REPOS)
-    md = generate_markdown(repos)
-    update_readme(md)
+    if repos:
+        md = generate_markdown(repos)
+        update_readme(md)
+    else:
+        print("未抓取到仓库，不更新 README")
