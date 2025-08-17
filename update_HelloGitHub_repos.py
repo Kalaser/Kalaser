@@ -50,7 +50,7 @@ def get_hellogithub_top_repos(max_repos=8):
             "lang": lang,
             "updated": datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")  # 给每个仓库加更新时间  # 默认值
         })
-        print(f"- {name} | {author} | {lang} | {desc}| {updated}")  # 调试
+        print(f"- {name} | {author} | {lang} | {desc}")  # 调试
     return top_repos
 
 def generate_markdown(repos):
