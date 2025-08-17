@@ -14,37 +14,17 @@ MAX_REPOS = 6
 URL = "https://hellogithub.com/"
 
 def get_hellogithub_top_repos(max_repos=6):
-    chrome_options = Options()
-    chrome_options.add_argument("--headless")  # 无头模式
-    chrome_options.add_argument("--no-sandbox")
-    chrome_options.add_argument("--disable-dev-shm-usage")
-    
-    service = Service(ChromeDriverManager().install())
-    driver = webdriver.Chrome(service=service, options=chrome_options)
-    
-    driver.get(URL)
+    with sync_playwright() as p:
+        browser = p.chromium.launch()
+        page = browser.new_page()
+        page.goto(URL)
+        page.wait_for_selector("a.block[href^='/repository/']", timeout=15000)
+        html = page.content()
+        browser.close()
 
-    # 等待热门仓库元素出现
-    try:
-        WebDriverWait(driver, 15).until(
-            EC.presence_of_element_located((By.CSS_SELECTOR, "a.block[href^='/repository/']"))
-        )
-    except:
-        print("等待超时，未找到热门仓库元素")
-        driver.quit()
-        return []
-
-    # 滚动页面保证懒加载
-    driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-    time.sleep(3)
-
-    soup = BeautifulSoup(driver.page_source, "html.parser")
-    driver.quit()
-    
-    repo_elements = soup.select("a.block[href^='/repository/']")[:max_repos]
+    soup = BeautifulSoup(html, "html.parser")
+    repo_elements = soup.select("a.block[href^='/repository/']")[:MAX_REPOS]
     top_repos = []
-    print(f"找到 {len(repo_elements)} 个仓库元素")  # 调试
-    
     for elem in repo_elements:
         link = "https://hellogithub.com" + elem["href"]
         name_tag = elem.select_one("span.font-semibold")
@@ -62,9 +42,10 @@ def get_hellogithub_top_repos(max_repos=6):
             "author": author,
             "lang": lang
         })
-        print(f"- {name} | {author} | {lang}")  # 调试
-    
+
+    print(f"- {name} | {author} | {lang}")  # 调试
     return top_repos
+        
 
 def generate_markdown(repos):
     md = ""
