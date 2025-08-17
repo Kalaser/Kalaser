@@ -28,26 +28,6 @@
 ---
 ## 🔥 HelloGitHub 热门仓库
 <!--POPULAR_REPOS-->
-<div align="center">
-
-{% for repo in repos %}
-<div style="display:inline-block; border-radius:12px; border:1px solid #e1e4e8; margin:8px; padding:12px; width:280px; background-color:#f9f9f9;">
-  <a href="{{ repo.link }}" target="_blank" style="text-decoration:none;">
-    <div style="display:flex; align-items:center; margin-bottom:8px;">
-      <img src="https://github.com/{{ repo.author }}.png" width="40" height="40" style="border-radius:50%; margin-right:8px;">
-      <div>
-        <h3 style="margin:0; font-size:16px; color:#0366d6;">{{ repo.name }}</h3>
-        <p style="margin:0; font-size:12px; color:#586069;">{{ repo.lang }}</p>
-      </div>
-    </div>
-    <p style="font-size:13px; color:#24292f; min-height:40px;">{{ repo.desc }}</p>
-    <p style="font-size:12px; color:#586069;">作者: {{ repo.author }}</p>
-  </a>
-</div>
-{% endfor %}
-
-</div> 
-
 <!--POPULAR_REPOS_END-->
 ---
 
