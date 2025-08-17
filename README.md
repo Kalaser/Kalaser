@@ -1,5 +1,5 @@
 <!-- 动态打字效果 -->
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=24&color=F70000&center=true&vCenter=true&width=600&lines=Hi+there%2C+I'm+Kalaser!;A+Passionate+Developer;Love+Open+Source+%26+Tech)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=48&color=FF6B6B&width=800&lines=Hi+there,+I'm+Kalaser!;Passionate+Developer;Love+Open+Source+%26+Tech&center=true&vCenter=true&font=Fira+Code&gradient=FF6B6B,FFA500,1E90FF&duration=3000)](https://git.io/typing-svg)
 
 ---
 
