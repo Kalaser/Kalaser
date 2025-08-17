@@ -13,7 +13,7 @@ def get_hellogithub_top_repos(max_repos=6):
     
     repo_elements = soup.select("a.block[href^='/repository/']")[:max_repos]
     top_repos = []
-
+    print(f"找到 {len(repo_elements)} 个仓库元素")  # 🔹调试
     for elem in repo_elements:
         link = "https://hellogithub.com" + elem["href"]
         # 名称在 <span class="font-semibold"> 标签内
@@ -28,6 +28,8 @@ def get_hellogithub_top_repos(max_repos=6):
         # 编程语言
         lang_tag = elem.select_one("span.whitespace-nowrap")
         lang = lang_tag.text.strip() if lang_tag else ""
+        print(f"- {name} | {author} | {lang}")  # 🔹调试
+        
         top_repos.append({
             "name": name,
             "desc": desc,
@@ -59,13 +61,19 @@ def update_readme(markdown):
     with open(README_FILE, "r", encoding="utf-8") as f:
         content = f.read()
 
+    print(f"占位符起始位置: {start}, 结束位置: {end}")
+
     pattern = r"<!--POPULAR_REPOS-->(.|\s)*?<!--POPULAR_REPOS_END-->"
     replacement = f"<!--POPULAR_REPOS-->\n{markdown}<!--POPULAR_REPOS_END-->"
     new_content = re.sub(pattern, replacement, content, flags=re.DOTALL)
 
     with open(README_FILE, "w", encoding="utf-8") as f:
         f.write(new_content)
-
+    # 调试：写入后再读取并打印前 500 个字符
+    with open(README_FILE, "r", encoding="utf-8") as f:
+        check_content = f.read()
+    print("写入后的内容预览（前500字符）：")
+    print(check_content[:500])
 # def main():
 #     repos = get_hellogithub_top_repos(MAX_REPOS)
 #     md = generate_markdown(repos)
