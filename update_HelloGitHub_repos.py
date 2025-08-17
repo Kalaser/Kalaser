@@ -60,17 +60,13 @@ def get_hellogithub_top_repos(max_repos=8):
         
 
 def generate_markdown(repos):
-    md = '<p align="center">\n'
     for repo in repos:
+        md += f"{i}. [{repo['name']}]({repo['link']})  \n"
         md += f'  <a href="{repo["link"]}" target="_blank" style="text-decoration:none;">\n'
-        md += f'    <span style="display:inline-block; background-color:#f3f4f6; color:#0366d6; border-radius:12px; padding:10px 16px; margin:6px; font-size:13px; text-align:left; min-width:180px;">\n'
         md += f'      <strong>{repo["name"]}</strong><br>\n'
         md += f'      作者: {repo["author"]}<br>\n'
         md += f'      语言: {repo["lang"]}<br>\n'
-        md += f'      更新时间: {repo.get("updated", "未知")}\n'
-        md += f'    </span>\n'
-        md += f'  </a>\n'
-    md += '</p>'
+        md += f'  </a>\n\n'
     return md
     
 def update_readme(markdown):
