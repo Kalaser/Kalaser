@@ -2,12 +2,10 @@
 update_HelloGitHub_repos.py
 
 作者: Kalaser
-描述: 自动抓取 HelloGitHub 最热仓库，并生成带胶囊的 Markdown 到 README.md
+描述: 自动抓取 HelloGitHub 最热仓库，并生成带编号的 Markdown 到 README.md
 日期: 2025-08-17
 """
 
-
-import time
 import re
 from datetime import datetime
 from playwright.sync_api import sync_playwright
@@ -40,53 +38,51 @@ def get_hellogithub_top_repos(max_repos=8):
     with sync_playwright() as p:
         browser = p.chromium.launch()
         page = browser.new_page()
-        page.goto(URL)
+        page.goto(URL, timeout=60000, wait_until="networkidle")
         page.wait_for_selector("a.block[href^='/repository/']", timeout=15000)
         html = page.content()
-        browser.close()
-    
+
     soup = BeautifulSoup(html, "html.parser")
-    repo_elements = soup.select("a.block[href^='/repository/']")[:MAX_REPOS]
+    repo_elements = soup.select("a.block[href^='/repository/']")[:max_repos]
+    print(f"找到 {len(repo_elements)} 个仓库元素")
+
     top_repos = []
-    if not repo_elements:
-            print("未抓取到仓库元素")
-            browser.close()
-            return top_repos
     for elem in repo_elements:
         link = "https://hellogithub.com" + elem["href"]
-        # 名称
         name_tag = elem.select_one("span.font-semibold")
         name = name_tag.text.strip() if name_tag else "Unknown"
-        # 描述
+
         desc_tag = elem.select_one("span.text-gray-600")
         desc = desc_tag.text.strip() if desc_tag else ""
-        # 作者
+
         author_tag = elem.select_one("div.truncate")
         author = author_tag.text.strip() if author_tag else ""
-        # 语言
+
         lang_tag = elem.select_one("span.whitespace-nowrap")
         lang = lang_tag.text.strip() if lang_tag else ""
+
         top_repos.append({
             "name": name,
             "desc": desc,
             "link": link,
             "author": author,
-            "lang": lang
+            "lang": lang,
+            "updated": "未知"  # 默认值
         })
-    # browser.close()
-    print(f"- {name} | {author} | {lang}")  # 调试
+        print(f"- {name} | {author} | {lang}")  # 调试
+
     return top_repos
-        
 
 def generate_markdown(repos):
-    for repo in repos:
+    md = ""
+    for i, repo in enumerate(repos, 1):
         md += f"{i}. [{repo['name']}]({repo['link']})  \n"
-        md += f'      {repo["desc"]}\n'
+        md += f"   - 描述: {repo['desc']}  \n"
         md += f"   - 作者: `{repo['author']}`  \n"
         md += f"   - 语言: `{repo['lang']}`  \n"
         md += f"   - 更新时间: `{relative_time(repo.get('updated','未知'))}`  \n\n"
     return md
-    
+
 def update_readme(markdown):
     with open(README_FILE, "r", encoding="utf-8") as f:
         content = f.read()
