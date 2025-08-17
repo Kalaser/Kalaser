@@ -21,7 +21,7 @@ jobs:
           python-version: "3.x"
 
       - name: 安装依赖
-        run: pip install requests selenium webdriver-manager beautifulsoup4
+        run: pip install requests playwright beautifulsoup4
 
       - name: 更新 HelloGitHub 最热仓库
         run: python update_HelloGitHub_repos.py
