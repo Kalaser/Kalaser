@@ -26,7 +26,10 @@
 </p>
 
 ---
-
+## 🔥 HelloGitHub 热门仓库
+<!--POPULAR_REPOS-->
+<!--POPULAR_REPOS_END-->
+---
 ## 🛠 技术栈
 <p align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="40" height="40"/>
@@ -46,7 +49,7 @@
 
 ---
 
-## 🐍 贪吃蛇提交动画
+## 🐍 贪吃蛇
 <p align="center">
   <img src="https://raw.githubusercontent.com/Kalaser/Kalaser/output/github-contribution-grid-snake.svg" />
 </p>
