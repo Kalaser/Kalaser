@@ -10,6 +10,14 @@
 - ⚡ 兴趣爱好：Coding 🎯 / 游戏 🎮 / 科幻 ✨
 ---
 
+## 📅 今日更新
+
+⏰ 日期：<!--DATE-->
+
+💡 每日一句：<!--QUOTE-->
+
+---
+
 ## 📊 GitHub 数据
 <p align="center">
   <!-- GitHub 统计卡片 -->
@@ -41,7 +49,7 @@
 
 ## 🐍 贪吃蛇提交动画
 <p align="center">
-  <img src="https://github.com/Kalaser/Kalaser/blob/output/github-contribution-grid-snake.svg" alt="snake"/>
+<img src="https://github.com/Kalaser/Kalaser/blob/output/github-contribution-grid-snake.svg" alt="snake"/>
 </p>
 
 ---
