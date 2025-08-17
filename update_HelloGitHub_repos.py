@@ -38,7 +38,7 @@ def get_hellogithub_top_repos(max_repos=6):
     return top_repos
 
 def generate_markdown(repos):
-   md = ""
+    md = ""
     for repo in repos:
         md += f"[**{repo['name']}**]({repo['link']}) — {repo['desc']}  \n"
         md += f"*作者*: {repo['author']} · *语言*: {repo['lang']}  \n\n"
