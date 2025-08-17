@@ -1,0 +1,30 @@
+name: 更新 README
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # 每天 0 点运行
+  workflow_dispatch:      # 手动触发
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 拉取代码
+        uses: actions/checkout@v3
+
+      - name: 设置 Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+
+      - name: 运行脚本更新 README
+        run: |
+          python update_readme.py
+
+      - name: 提交更改
+        run: |
+          git config --local Kalaser "github-actions[bot]"
+          git config --local 1297926673@qq.com "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "update README" || echo "No changes"
+          git push
