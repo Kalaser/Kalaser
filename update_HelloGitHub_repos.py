@@ -1,6 +1,7 @@
 import time
 import re
 from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
@@ -15,7 +16,9 @@ def get_hellogithub_top_repos(max_repos=6):
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-dev-shm-usage")
     
-    driver = webdriver.Chrome(ChromeDriverManager().install(), options=chrome_options)
+    service = Service(ChromeDriverManager().install())
+    driver = webdriver.Chrome(service=service, options=chrome_options)
+    
     driver.get(URL)
     time.sleep(5)  # 等待 JS 渲染完成
     
@@ -69,11 +72,9 @@ def update_readme(markdown):
     with open(README_FILE, "w", encoding="utf-8") as f:
         f.write(new_content)
 
-    print("写入后的内容预览（前500字符）：")
-    print(new_content[:500])
+    print("README 已写入更新内容。")
 
 if __name__ == "__main__":
     repos = get_hellogithub_top_repos(MAX_REPOS)
     md = generate_markdown(repos)
     update_readme(md)
-    print("README 已更新 HelloGitHub 最热仓库！")
