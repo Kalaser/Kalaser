@@ -15,8 +15,6 @@ README_FILE = "README.md"
 MAX_REPOS = 8
 URL = "https://hellogithub.com/"
 
-
-repo['updated'] = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
 def get_hellogithub_top_repos(max_repos=8):
     with sync_playwright() as p:
         browser = p.chromium.launch()
@@ -50,9 +48,10 @@ def get_hellogithub_top_repos(max_repos=8):
             "link": link,
             "author": author,
             "lang": lang,
-            "updated": "未知"  # 默认值
+            "updated": ""  # 默认值
         })
         print(f"- {name} | {author} | {lang}")  # 调试
+        top_repos ['updated'] = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
 
     return top_repos
 
