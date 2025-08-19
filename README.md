@@ -30,51 +30,51 @@
 <!--POPULAR_REPOS-->
 1. [GLM-4.5](https://hellogithub.com/repository/zai-org/GLM-4.5)  
    - 描述: 智谱开源的旗舰模型系列  
-   - 简介: `GLM-4.5—智谱开源的旗舰模型系列1这是一个专为智能体应用打造的基础模型。GLM-4.5 总参数为 355B 激活参数为 32B，在工具调用、网页浏览、软件工程、前端编程领域进行了优化，可以接入 zai-org·Python·20 天前3.1k`  
+   - 简介: `GLM-4.5—智谱开源的旗舰模型系列1这是一个专为智能体应用打造的基础模型。GLM-4.5 总参数为 355B 激活参数为 32B，在工具调用、网页浏览、软件工程、前端编程领域进行了优化，可以接入 zai-org·Python·21 天前3.3k`  
    - 语言: `Python`  
-   - 更新时间: `2025-08-18 02:02:20`  
+   - 更新时间: `2025-08-19 01:49:32`  
 
-2. [KittenTTS](https://hellogithub.com/repository/KittenML/KittenTTS)  
-   - 描述: 轻量小巧的文本转语音模型  
-   - 简介: `KittenTTS—轻量小巧的文本转语音模型1这是一款轻量级文本转语音（TTS）模型，体积小于 25MB、无需 GPU 即可流畅运行。它能够将文本高质量地转换为自然流畅的语音，支持多种音色，适用于多种设备和KittenML·Python·6 天前1k`  
-   - 语言: `Python`  
-   - 更新时间: `2025-08-18 02:02:20`  
-
-3. [tinyauth](https://hellogithub.com/repository/steveiliop56/tinyauth)  
-   - 描述: 开源的零代码身份认证中间件  
-   - 简介: `tinyauth—开源的零代码身份认证中间件这是一个 Go 语言开发的极简认证中间件，可通过 Docker 快速部署。它能为任何 Web 应用或服务一键添加登录界面或 OAuth 登录（Google、Gisteveiliop56·Go·6 天前579`  
-   - 语言: `Go`  
-   - 更新时间: `2025-08-18 02:02:20`  
-
-4. [mcp-for-beginners](https://hellogithub.com/repository/microsoft/mcp-for-beginners)  
-   - 描述: 微软开源的 MCP 教程  
-   - 简介: `mcp-for-beginners—微软开源的 MCP 教程该项目是微软开源的 MCP 基础教程，内容围绕 Python、.NET、Java、TypeScript 等多种编程语言，通过丰富的代码实例与系统化的学习路径，帮microsoft·Python·6 天前524`  
-   - 语言: `Python`  
-   - 更新时间: `2025-08-18 02:02:20`  
-
-5. [kiss-translator](https://hellogithub.com/repository/fishjar/kiss-translator)  
-   - 描述: 开源的网页双语对照翻译工具  
-   - 简介: `kiss-translator—开源的网页双语对照翻译工具这是一款开源的双语对照翻译浏览器插件。它为用户提供网页内容的快速双语对照翻译功能，便于在阅读外语网页时同步查看原文与译文，支持多翻译引擎（Google、Deepfishjar·JavaScript·6 天前633`  
-   - 语言: `JavaScript`  
-   - 更新时间: `2025-08-18 02:02:20`  
-
-6. [langextract](https://hellogithub.com/repository/google/langextract)  
-   - 描述: 基于大模型的智能文本提取库  
-   - 简介: `langextract—基于大模型的智能文本提取库这是一款由 Google 开源的 Python 库，可实现自动识别和提取文本内容。它内置源文本的精确定位与交互式可视化功能。用户只需提供简短提示和少量示例，便可google·Python·6 天前492`  
-   - 语言: `Python`  
-   - 更新时间: `2025-08-18 02:02:20`  
-
-7. [60s](https://hellogithub.com/repository/vikiboss/60s)  
-   - 描述: 每日 60 秒资讯 API 集合  
-   - 简介: `60s—每日 60 秒资讯 API 集合5该项目集合了包括每日新闻、实时票房、汇率、热搜榜、随机段子等多种数据的 API 服务。vikiboss·TypeScript·21 天前4.4k`  
+2. [motia](https://hellogithub.com/repository/MotiaDev/motia)  
+   - 描述: 终结后端碎片化的框架  
+   - 简介: `motia—终结后端碎片化的框架这是一款一站式后端后框架，集成了 API、事件驱动、定时任务、实时数据流和 AI Agent 等能力，支持 TypeScript、Python 等多语言混合开发MotiaDev·TypeScript·7 小时内19`  
    - 语言: `TypeScript`  
-   - 更新时间: `2025-08-18 02:02:20`  
+   - 更新时间: `2025-08-19 01:49:32`  
 
-8. [LangBot](https://hellogithub.com/repository/langbot-app/LangBot)  
-   - 描述: 开箱即用的大模型 IM 机器人开发平台  
-   - 简介: `LangBot—开箱即用的大模型 IM 机器人开发平台2这是一个支持多种聊天平台、大模型和 AI 应用的聊天机器人平台，可以轻松集成到 QQ、企业微信、飞书、钉钉、Discord、Slack 等主流平台。它内置 Welangbot-app·Python·12 天前1.2k`  
+3. [fastapi_mcp](https://hellogithub.com/repository/tadata-org/fastapi_mcp)  
+   - 描述: 轻松将 API 化为 MCP 的框架  
+   - 简介: `fastapi_mcp—轻松将 API 化为 MCP 的框架该项目让你仅用几行代码就把现有 FastAPI 接口升级为支持 MCP 协议的 AI 工具，并保留原有的鉴权、数据校验和文档，极大降低了传统 API 与 AI tadata-org·Python·7 小时内35`  
    - 语言: `Python`  
-   - 更新时间: `2025-08-18 02:02:20`  
+   - 更新时间: `2025-08-19 01:49:32`  
+
+4. [ubicloud](https://hellogithub.com/repository/ubicloud/ubicloud)  
+   - 描述: 可自托管的开源云  
+   - 简介: `ubicloud—可自托管的开源云这是一款基于 Ruby 开发的开源云基础设施平台（IaaS），可作为云服务提供商的开源替代方案。它拥有简洁、易用的项目与资源管理界面，集成了虚拟机、数据库、负载ubicloud·Ruby·7 小时内30`  
+   - 语言: `Ruby`  
+   - 更新时间: `2025-08-19 01:49:32`  
+
+5. [dinov3](https://hellogithub.com/repository/facebookresearch/dinov3)  
+   - 描述: 无需微调的全能视觉模型  
+   - 简介: `dinov3—无需微调的全能视觉模型该项目是 Meta 开源的通用视觉基础模型，包含完整的预训练主干网络、适配器、训练和评测代码。它通过自监督学习（SSL）技术，无需微调即可直接应用于分类、检索、facebookresearch·Jupyter·7 小时内28`  
+   - 语言: `Jupyter`  
+   - 更新时间: `2025-08-19 01:49:32`  
+
+6. [Archon](https://hellogithub.com/repository/coleam00/Archon)  
+   - 描述: AI 编程助手的指挥中心  
+   - 简介: `Archon—AI 编程助手的指挥中心这是一款专为 AI 编程助手设计的项目管理平台，让不同 AI 助手共享统一的项目知识与任务进度。它通过 MCP 实现本地知识库与任务板的整合，并与 Cursorcoleam00·Python·7 小时内26`  
+   - 语言: `Python`  
+   - 更新时间: `2025-08-19 01:49:32`  
+
+7. [KittenTTS](https://hellogithub.com/repository/KittenML/KittenTTS)  
+   - 描述: 轻量小巧的文本转语音模型  
+   - 简介: `KittenTTS—轻量小巧的文本转语音模型2这是一款轻量级文本转语音（TTS）模型，体积小于 25MB、无需 GPU 即可流畅运行。它能够将文本高质量地转换为自然流畅的语音，支持多种音色，适用于多种设备和KittenML·Python·7 天前1.3k`  
+   - 语言: `Python`  
+   - 更新时间: `2025-08-19 01:49:32`  
+
+8. [tinyauth](https://hellogithub.com/repository/steveiliop56/tinyauth)  
+   - 描述: 开源的零代码身份认证中间件  
+   - 简介: `tinyauth—开源的零代码身份认证中间件这是一个 Go 语言开发的极简认证中间件，可通过 Docker 快速部署。它能为任何 Web 应用或服务一键添加登录界面或 OAuth 登录（Google、Gisteveiliop56·Go·7 天前670`  
+   - 语言: `Go`  
+   - 更新时间: `2025-08-19 01:49:32`  
 
 <!--POPULAR_REPOS_END-->
 ---
