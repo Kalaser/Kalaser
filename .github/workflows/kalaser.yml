@@ -49,8 +49,8 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
       - name: 拉取每日一图
         run: |
-              mkdir -p dist
-              curl -L "https://60s.viki.moe/v2/bing?encoding=image" -o dist/daily.jpg
+          mkdir -p dist
+          curl -L "https://60s.viki.moe/v2/bing?encoding=image" -o dist/daily.jpg
 
       - name: 推送到 output 分支
         uses: crazy-max/ghaction-github-pages@v3.1.0
