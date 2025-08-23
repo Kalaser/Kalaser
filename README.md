@@ -15,6 +15,9 @@
 ⏰ 日期：<!--DATE-->2025-08-23 01:53:39
 
 💡 每日一句：<!--QUOTE-->完美啊完美，正中下怀呢！
+
+🖼️ 每日一图：
+![今日图片](https://github.com/Kalaser/Kalaser/blob/output/th.jpg)
 ---
 
 ## 📊 GitHub 数据
