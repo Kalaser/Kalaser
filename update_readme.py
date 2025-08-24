@@ -24,18 +24,32 @@ def get_quote():
         print(f"Error fetching quote: {e}")
         return "Stay motivated!"
 
-# # 获取今日图片
-# def get_image():
-#     """获取今日图片 URL"""
-#     url = "https://60s.viki.moe/v2/bing?encoding=image"
-#     try:
-#         with urllib.request.urlopen(url, timeout=10) as res:
-#             # 如果返回的是重定向 URL
-#             return res.geturl()
-#     except Exception as e:
-#         print(f"Error fetching image: {e}")
-#         # 出错时返回默认图片 URL
-#         return "https://60s.viki.moe/v2/bing?encoding=image"
+# 获取今日图片并保存
+def get_image():
+    """获取今日图片并保存到当前分支目录"""
+    url = "https://60s.viki.moe/v2/bing?encoding=image"
+    filename = "daily.jpg"  # 保存的文件名
+    
+    try:
+        # 下载图片
+        with urllib.request.urlopen(url, timeout=10) as res:
+            image_url = res.geturl()
+            with urllib.request.urlopen(image_url, timeout=10) as img_res:
+                with open(filename, "wb") as f:
+                    f.write(img_res.read())
+            print(f"✅ 图片已保存到 {filename}")
+        
+        # 自动添加到 git 暂存区（可选）
+        subprocess.run(["git", "add", filename], check=True)
+        subprocess.run(["git", "commit", "-m", "更新每日图片"], check=True)
+        subprocess.run(["git", "push"], check=True)
+        print("✅ 已提交最新图片到本地分支")
+        
+        return os.path.abspath(filename)
+
+    except Exception as e:
+        print(f"❌ 获取或保存图片失败: {e}")
+        return None
 
 def main():
     # 读取 README 文件内容
