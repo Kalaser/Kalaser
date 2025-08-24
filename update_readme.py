@@ -52,6 +52,7 @@ def get_image():
         return None
 
 def main():
+    image = get_image()
     # 读取 README 文件内容
     with open(README_FILE, "r", encoding="utf-8") as f:
         content = f.read()
@@ -64,7 +65,7 @@ def main():
     # 更新 README 中的日期和一言内容
     content = re.sub(r"<!--DATE-->.*", f"<!--DATE-->{today}", content)
     content = re.sub(r"<!--QUOTE-->.*", f"<!--QUOTE-->{quote}", content)
-    # content = re.sub(r"<!--IMAGE_URL-->.*", f"<!--IMAGE_URL-->{image}", content)
+    content = re.sub(r"<!--IMAGE_URL-->.*", f"<!--IMAGE_URL-->{image}", content)
     # 将更新后的内容写回 README 文件
     with open(README_FILE, "w", encoding="utf-8") as f:
         f.write(content)
