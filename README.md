@@ -30,53 +30,53 @@
 ---
 ## 🔥 HelloGitHub 热门仓库
 <!--POPULAR_REPOS-->
-1. [GLM-4.5](https://hellogithub.com/repository/zai-org/GLM-4.5)  
-   - 描述: 智谱开源的旗舰模型系列  
-   - 简介: `GLM-4.5—智谱开源的旗舰模型系列2这是一个专为智能体应用打造的基础模型。GLM-4.5 总参数为 355B 激活参数为 32B，在工具调用、网页浏览、软件工程、前端编程领域进行了优化，可以接入 zai-org·Python·1 个月前3.9k`  
-   - 语言: `Python`  
-   - 更新时间: `2025-08-24 01:57:17`  
-
-2. [leantime](https://hellogithub.com/repository/Leantime/leantime)  
-   - 描述: 战略目标到任务落地的管理工具  
-   - 简介: `leantime—战略目标到任务落地的管理工具这是一款适用于非项目经理的开源项目管理系统，集目标拆解、任务分配、进度跟踪与战略规划于一体。它基于 PHP 和 MySQL 开发，界面简洁、操作流程清晰，支持多Leantime·PHP·3 天前452`  
-   - 语言: `PHP`  
-   - 更新时间: `2025-08-24 01:57:17`  
-
-3. [ubicloud](https://hellogithub.com/repository/ubicloud/ubicloud)  
-   - 描述: 可自托管的开源云  
-   - 简介: `ubicloud—可自托管的开源云1这是一款基于 Ruby 开发的开源云基础设施平台（IaaS），可作为云服务提供商的开源替代方案。它拥有简洁、易用的项目与资源管理界面，集成了虚拟机、数据库、负载ubicloud·Ruby·5 天前571`  
-   - 语言: `Ruby`  
-   - 更新时间: `2025-08-24 01:57:17`  
-
-4. [Archon](https://hellogithub.com/repository/coleam00/Archon)  
-   - 描述: AI 编程助手的指挥中心  
-   - 简介: `Archon—AI 编程助手的指挥中心这是一款专为 AI 编程助手设计的项目管理平台，让不同 AI 助手共享统一的项目知识与任务进度。它通过 MCP 实现本地知识库与任务板的整合，并与 Cursorcoleam00·Python·5 天前618`  
-   - 语言: `Python`  
-   - 更新时间: `2025-08-24 01:57:17`  
-
-5. [motia](https://hellogithub.com/repository/MotiaDev/motia)  
-   - 描述: 终结后端碎片化的框架  
-   - 简介: `motia—终结后端碎片化的框架这是一款一站式后端后框架，集成了 API、事件驱动、定时任务、实时数据流和 AI Agent 等能力，支持 TypeScript、Python 等多语言混合开发MotiaDev·TypeScript·5 天前641`  
+1. [tolaria](https://hellogithub.com/repository/refactoringhq/tolaria)  
+   - 描述: 基于 Git 的本地 Markdown 知识库工具  
+   - 简介: `tolaria—基于 Git 的本地 Markdown 知识库工具4这是一款用来管理 Markdown 知识库的桌面应用，每个知识库即一个 Git 仓库，天然拥有版本历史和变更记录。笔记以 Markdown 文件存储随时可迁移，refactoringhq·TypeScript·21 天前4.5k`  
    - 语言: `TypeScript`  
-   - 更新时间: `2025-08-24 01:57:17`  
+   - 更新时间: `2026-07-20 03:18:04`  
 
-6. [fastapi_mcp](https://hellogithub.com/repository/tadata-org/fastapi_mcp)  
-   - 描述: 轻松将 API 化为 MCP 的框架  
-   - 简介: `fastapi_mcp—轻松将 API 化为 MCP 的框架该项目让你仅用几行代码就把现有 FastAPI 接口升级为支持 MCP 协议的 AI 工具，并保留原有的鉴权、数据校验和文档，极大降低了传统 API 与 AI tadata-org·Python·5 天前454`  
+2. [GOD](https://hellogithub.com/repository/XiaoLuoLYG/GOD)  
+   - 描述: AI 智能体小镇  
+   - 简介: `GOD—AI 智能体小镇1这是一款本地优先的多智能体模拟和实时操控平台，不同于只能旁观的 Agent 模拟器，支持随时暂停/回放、注入干预指令、向单个或全体成员提问，以及一键重置整个模拟XiaoLuoLYG·Python·21 天前3.6k`  
    - 语言: `Python`  
-   - 更新时间: `2025-08-24 01:57:17`  
+   - 更新时间: `2026-07-20 03:18:04`  
 
-7. [dinov3](https://hellogithub.com/repository/facebookresearch/dinov3)  
-   - 描述: 无需微调的全能视觉模型  
-   - 简介: `dinov3—无需微调的全能视觉模型该项目是 Meta 开源的通用视觉基础模型，包含完整的预训练主干网络、适配器、训练和评测代码。它通过自监督学习（SSL）技术，无需微调即可直接应用于分类、检索、facebookresearch·Jupyter·5 天前505`  
-   - 语言: `Jupyter`  
-   - 更新时间: `2025-08-24 01:57:17`  
+3. [Echo-Loop](https://hellogithub.com/repository/echo-loop/Echo-Loop)  
+   - 描述: 把英语音频变成听说训练的应用  
+   - 简介: `Echo-Loop—把英语音频变成听说训练的应用1这是一款专注于英语听说训练的应用，帮助用户把一段音频从完全陌生练到听懂会说。支持导入本地音频和字幕，提供逐句精听、意群划分、跟读评分、段落复述等功能，还可将生词echo-loop·Dart·21 天前2.3k`  
+   - 语言: `Dart`  
+   - 更新时间: `2026-07-20 03:18:04`  
 
-8. [KittenTTS](https://hellogithub.com/repository/KittenML/KittenTTS)  
-   - 描述: 轻量小巧的文本转语音模型  
-   - 简介: `KittenTTS—轻量小巧的文本转语音模型3这是一款轻量级文本转语音（TTS）模型，体积小于 25MB、无需 GPU 即可流畅运行。它能够将文本高质量地转换为自然流畅的语音，支持多种音色，适用于多种设备和KittenML·Python·12 天前1.8k`  
+4. [ai-engineering-from-scratch](https://hellogithub.com/repository/rohitg00/ai-engineering-from-scratch)  
+   - 描述: 从零开始学习 AI 工程  
+   - 简介: `ai-engineering-from-scratch—从零开始学习 AI 工程4这是一套免费、开源、完整的 AI 工程学习教程，共分为 20 个阶段、435 节课、学习时长约 320 小时。内容从线性代数等数学基础出发，贯穿机器学习基础、深rohitg00·Python·2 个月前7.1k`  
    - 语言: `Python`  
-   - 更新时间: `2025-08-24 01:57:17`  
+   - 更新时间: `2026-07-20 03:18:04`  
+
+5. [dbx](https://hellogithub.com/repository/t8y2/dbx)  
+   - 描述: 轻量级跨平台数据库桌面客户端  
+   - 简介: `dbx—轻量级跨平台数据库桌面客户端24这是一款轻量级、跨平台、可离线使用的数据库桌面客户端，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB 等 40+ 种数据库。它t8y2·Rust·2 个月前7.8k`  
+   - 语言: `Rust`  
+   - 更新时间: `2026-07-20 03:18:04`  
+
+6. [CapsWriter-Offline](https://hellogithub.com/repository/HaujetZhao/CapsWriter-Offline)  
+   - 描述: 超低延迟的离线语音输入工具  
+   - 简介: `CapsWriter-Offline—超低延迟的离线语音输入工具3这是一款完全离线的语音输入工具，按住 CapsLock 键说话、松开即可转换为文字。支持实时语音识别、音频文件转录、数字格式转换、热词替换、LLM 润色等功能，HaujetZhao·Python·21 天前1.5k`  
+   - 语言: `Python`  
+   - 更新时间: `2026-07-20 03:18:04`  
+
+7. [PaperTodo](https://hellogithub.com/repository/snownico0722/PaperTodo)  
+   - 描述: 极简的 Windows 桌面便签工具  
+   - 简介: `PaperTodo—极简的 Windows 桌面便签工具1这是一款极简的 Windows 桌面便签工具，每张便签是独立无边框浮动窗口，无主窗口、无账号、无分类管理，内容自动保存。支持待办纸和笔记纸（轻量 Markdowsnownico0722·C#·21 天前1.8k`  
+   - 语言: `C#`  
+   - 更新时间: `2026-07-20 03:18:04`  
+
+8. [text-to-cad](https://hellogithub.com/repository/earthtojake/text-to-cad)  
+   - 描述: 一句话生成 CAD 模型的技能包  
+   - 简介: `text-to-cad—一句话生成 CAD 模型的技能包1这是一套赋予 AI 智能体 CAD 建模能力的技能包，支持通过自然语言或参考图片生成、修改和校验 CAD 模型。以 STEP 为主格式，可导出 STL、3MF、earthtojake·JavaScript·21 天前1.4k`  
+   - 语言: `JavaScript`  
+   - 更新时间: `2026-07-20 03:18:04`  
 
 <!--POPULAR_REPOS_END-->
 ---
