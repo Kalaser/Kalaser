@@ -32,51 +32,51 @@
 <!--POPULAR_REPOS-->
 1. [tolaria](https://hellogithub.com/repository/refactoringhq/tolaria)  
    - 描述: 基于 Git 的本地 Markdown 知识库工具  
-   - 简介: `tolaria—基于 Git 的本地 Markdown 知识库工具4这是一款用来管理 Markdown 知识库的桌面应用，每个知识库即一个 Git 仓库，天然拥有版本历史和变更记录。笔记以 Markdown 文件存储随时可迁移，refactoringhq·TypeScript·21 天前4.5k`  
+   - 简介: `tolaria—基于 Git 的本地 Markdown 知识库工具4这是一款用来管理 Markdown 知识库的桌面应用，每个知识库即一个 Git 仓库，天然拥有版本历史和变更记录。笔记以 Markdown 文件存储随时可迁移，refactoringhq·TypeScript·22 天前4.7k`  
    - 语言: `TypeScript`  
-   - 更新时间: `2026-07-20 03:18:04`  
+   - 更新时间: `2026-07-21 02:46:45`  
 
 2. [GOD](https://hellogithub.com/repository/XiaoLuoLYG/GOD)  
    - 描述: AI 智能体小镇  
-   - 简介: `GOD—AI 智能体小镇1这是一款本地优先的多智能体模拟和实时操控平台，不同于只能旁观的 Agent 模拟器，支持随时暂停/回放、注入干预指令、向单个或全体成员提问，以及一键重置整个模拟XiaoLuoLYG·Python·21 天前3.6k`  
+   - 简介: `GOD—AI 智能体小镇1这是一款本地优先的多智能体模拟和实时操控平台，不同于只能旁观的 Agent 模拟器，支持随时暂停/回放、注入干预指令、向单个或全体成员提问，以及一键重置整个模拟XiaoLuoLYG·Python·22 天前3.8k`  
    - 语言: `Python`  
-   - 更新时间: `2026-07-20 03:18:04`  
+   - 更新时间: `2026-07-21 02:46:45`  
 
 3. [Echo-Loop](https://hellogithub.com/repository/echo-loop/Echo-Loop)  
    - 描述: 把英语音频变成听说训练的应用  
-   - 简介: `Echo-Loop—把英语音频变成听说训练的应用1这是一款专注于英语听说训练的应用，帮助用户把一段音频从完全陌生练到听懂会说。支持导入本地音频和字幕，提供逐句精听、意群划分、跟读评分、段落复述等功能，还可将生词echo-loop·Dart·21 天前2.3k`  
+   - 简介: `Echo-Loop—把英语音频变成听说训练的应用1这是一款专注于英语听说训练的应用，帮助用户把一段音频从完全陌生练到听懂会说。支持导入本地音频和字幕，提供逐句精听、意群划分、跟读评分、段落复述等功能，还可将生词echo-loop·Dart·22 天前2.4k`  
    - 语言: `Dart`  
-   - 更新时间: `2026-07-20 03:18:04`  
+   - 更新时间: `2026-07-21 02:46:45`  
 
 4. [ai-engineering-from-scratch](https://hellogithub.com/repository/rohitg00/ai-engineering-from-scratch)  
    - 描述: 从零开始学习 AI 工程  
-   - 简介: `ai-engineering-from-scratch—从零开始学习 AI 工程4这是一套免费、开源、完整的 AI 工程学习教程，共分为 20 个阶段、435 节课、学习时长约 320 小时。内容从线性代数等数学基础出发，贯穿机器学习基础、深rohitg00·Python·2 个月前7.1k`  
+   - 简介: `ai-engineering-from-scratch—从零开始学习 AI 工程5这是一套免费、开源、完整的 AI 工程学习教程，共分为 20 个阶段、435 节课、学习时长约 320 小时。内容从线性代数等数学基础出发，贯穿机器学习基础、深rohitg00·Python·2 个月前7.2k`  
    - 语言: `Python`  
-   - 更新时间: `2026-07-20 03:18:04`  
+   - 更新时间: `2026-07-21 02:46:45`  
 
-5. [dbx](https://hellogithub.com/repository/t8y2/dbx)  
-   - 描述: 轻量级跨平台数据库桌面客户端  
-   - 简介: `dbx—轻量级跨平台数据库桌面客户端24这是一款轻量级、跨平台、可离线使用的数据库桌面客户端，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB 等 40+ 种数据库。它t8y2·Rust·2 个月前7.8k`  
-   - 语言: `Rust`  
-   - 更新时间: `2026-07-20 03:18:04`  
+5. [train-llm-from-scratch](https://hellogithub.com/repository/FareedKhan-dev/train-llm-from-scratch)  
+   - 描述: 从零开始训练大语言模型  
+   - 简介: `train-llm-from-scratch—从零开始训练大语言模型1该项目是手把手带你从零训练大语言模型的实战教程，不是简单调用 transformers 跑个示例，而是用 PyTorch 从底层实现 Transformer、预FareedKhan-dev·Python·22 天前1.8k`  
+   - 语言: `Python`  
+   - 更新时间: `2026-07-21 02:46:45`  
 
 6. [CapsWriter-Offline](https://hellogithub.com/repository/HaujetZhao/CapsWriter-Offline)  
    - 描述: 超低延迟的离线语音输入工具  
-   - 简介: `CapsWriter-Offline—超低延迟的离线语音输入工具3这是一款完全离线的语音输入工具，按住 CapsLock 键说话、松开即可转换为文字。支持实时语音识别、音频文件转录、数字格式转换、热词替换、LLM 润色等功能，HaujetZhao·Python·21 天前1.5k`  
+   - 简介: `CapsWriter-Offline—超低延迟的离线语音输入工具3这是一款完全离线的语音输入工具，按住 CapsLock 键说话、松开即可转换为文字。支持实时语音识别、音频文件转录、数字格式转换、热词替换、LLM 润色等功能，HaujetZhao·Python·22 天前1.6k`  
    - 语言: `Python`  
-   - 更新时间: `2026-07-20 03:18:04`  
+   - 更新时间: `2026-07-21 02:46:45`  
 
-7. [PaperTodo](https://hellogithub.com/repository/snownico0722/PaperTodo)  
+7. [dbx](https://hellogithub.com/repository/t8y2/dbx)  
+   - 描述: 轻量级跨平台数据库桌面客户端  
+   - 简介: `dbx—轻量级跨平台数据库桌面客户端24这是一款轻量级、跨平台、可离线使用的数据库桌面客户端，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB 等 40+ 种数据库。它t8y2·Rust·2 个月前7.9k`  
+   - 语言: `Rust`  
+   - 更新时间: `2026-07-21 02:46:45`  
+
+8. [PaperTodo](https://hellogithub.com/repository/snownico0722/PaperTodo)  
    - 描述: 极简的 Windows 桌面便签工具  
-   - 简介: `PaperTodo—极简的 Windows 桌面便签工具1这是一款极简的 Windows 桌面便签工具，每张便签是独立无边框浮动窗口，无主窗口、无账号、无分类管理，内容自动保存。支持待办纸和笔记纸（轻量 Markdowsnownico0722·C#·21 天前1.8k`  
+   - 简介: `PaperTodo—极简的 Windows 桌面便签工具1这是一款极简的 Windows 桌面便签工具，每张便签是独立无边框浮动窗口，无主窗口、无账号、无分类管理，内容自动保存。支持待办纸和笔记纸（轻量 Markdowsnownico0722·C#·22 天前1.9k`  
    - 语言: `C#`  
-   - 更新时间: `2026-07-20 03:18:04`  
-
-8. [text-to-cad](https://hellogithub.com/repository/earthtojake/text-to-cad)  
-   - 描述: 一句话生成 CAD 模型的技能包  
-   - 简介: `text-to-cad—一句话生成 CAD 模型的技能包1这是一套赋予 AI 智能体 CAD 建模能力的技能包，支持通过自然语言或参考图片生成、修改和校验 CAD 模型。以 STEP 为主格式，可导出 STL、3MF、earthtojake·JavaScript·21 天前1.4k`  
-   - 语言: `JavaScript`  
-   - 更新时间: `2026-07-20 03:18:04`  
+   - 更新时间: `2026-07-21 02:46:45`  
 
 <!--POPULAR_REPOS_END-->
 ---
