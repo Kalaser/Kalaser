@@ -32,51 +32,51 @@
 <!--POPULAR_REPOS-->
 1. [HypoMux](https://hellogithub.com/repository/Hypostasis-Cat/HypoMux)  
    - 描述: 把多张网卡的带宽叠加起来  
-   - 简介: `HypoMux—把多张网卡的带宽叠加起来3这是一款专为 Windows 平台打造的多网卡带宽聚合下载加速工具。当电脑同时接入网线、Wi-Fi 或手机热点时，它可将下载任务分配到不同网卡上，实现远超单网卡Hypostasis-Cat·Python·3 天前722`  
-   - 语言: `Python`  
-   - 更新时间: `2026-07-31 02:53:36`  
+   - 简介: `HypoMux—把多张网卡的带宽叠加起来3这是一款专为 Windows 平台打造的多网卡带宽聚合下载加速工具。当电脑同时接入网线、Wi-Fi 或手机热点时，它可将下载任务分配到不同网卡上，实现远超单网卡Hypostasis-Cat·Go·4 天前934`  
+   - 语言: `Go`  
+   - 更新时间: `2026-08-01 02:53:20`  
 
 2. [ai-agent-book](https://hellogithub.com/repository/bojieli/ai-agent-book)  
    - 描述: 《深入理解 AI Agent：设计原理与工程实践》  
-   - 简介: `ai-agent-book—《深入理解 AI Agent：设计原理与工程实践》这是一本讲解 AI Agent 的开源中文书籍，围绕「Agent = LLM + 上下文 + 工具」展开，共 10 章。内容从原理讲到生产实践，涵盖上下文工程、bojieli·Python·3 天前1k`  
+   - 简介: `ai-agent-book—《深入理解 AI Agent：设计原理与工程实践》这是一本讲解 AI Agent 的开源中文书籍，围绕「Agent = LLM + 上下文 + 工具」展开，共 10 章。内容从原理讲到生产实践，涵盖上下文工程、bojieli·Python·4 天前1.2k`  
    - 语言: `Python`  
-   - 更新时间: `2026-07-31 02:53:36`  
+   - 更新时间: `2026-08-01 02:53:20`  
 
-3. [magic-resume](https://hellogithub.com/repository/JOYCEQL/magic-resume)  
-   - 描述: 在线 AI 简历编辑器  
-   - 简介: `magic-resume—在线 AI 简历编辑器这是一款免费的在线 AI 简历编辑器，无需登录、内置多种模板。它基于 TanStack Start、TypeScript 和 Tiptap 构建，支持实时预览、JOYCEQL·TypeScript·3 天前475`  
-   - 语言: `TypeScript`  
-   - 更新时间: `2026-07-31 02:53:36`  
-
-4. [archify](https://hellogithub.com/repository/tt-a1i/archify)  
+3. [archify](https://hellogithub.com/repository/tt-a1i/archify)  
    - 描述: 让 AI 读代码画出架构图  
-   - 简介: `archify—让 AI 读代码画出架构图这是一款面向 Codex、Claude Code、Cursor 和 OpenCode 的架构图生成技能，可读取代码仓库或系统描述，生成可交互的架构图。它提供 5tt-a1i·HTML·3 天前662`  
+   - 简介: `archify—让 AI 读代码画出架构图这是一款面向 Codex、Claude Code、Cursor 和 OpenCode 的架构图生成技能，可读取代码仓库或系统描述，生成可交互的架构图。它提供 5tt-a1i·HTML·4 天前836`  
    - 语言: `HTML`  
-   - 更新时间: `2026-07-31 02:53:36`  
+   - 更新时间: `2026-08-01 02:53:20`  
+
+4. [magic-resume](https://hellogithub.com/repository/JOYCEQL/magic-resume)  
+   - 描述: 在线 AI 简历编辑器  
+   - 简介: `magic-resume—在线 AI 简历编辑器这是一款免费的在线 AI 简历编辑器，无需登录、内置多种模板。它基于 TanStack Start、TypeScript 和 Tiptap 构建，支持实时预览、JOYCEQL·TypeScript·4 天前598`  
+   - 语言: `TypeScript`  
+   - 更新时间: `2026-08-01 02:53:20`  
 
 5. [exercises-dataset](https://hellogithub.com/repository/hasaneyldrm/exercises-dataset)  
    - 描述: 上千个健身动作的集合  
-   - 简介: `exercises-dataset—上千个健身动作的集合这是一份包含 1000+ 个健身动作的开放数据集，每条记录标注了动作名称、目标肌群、协同肌肉、所需器械和分步教程。教程提供中文等 10 种语言，并配有 180xhasaneyldrm·HTML·3 天前673`  
+   - 简介: `exercises-dataset—上千个健身动作的集合这是一份包含 1000+ 个健身动作的开放数据集，每条记录标注了动作名称、目标肌群、协同肌肉、所需器械和分步教程。教程提供中文等 10 种语言，并配有 180xhasaneyldrm·HTML·4 天前808`  
    - 语言: `HTML`  
-   - 更新时间: `2026-07-31 02:53:36`  
+   - 更新时间: `2026-08-01 02:53:20`  
 
-6. [TREK](https://hellogithub.com/repository/liketrek/TREK)  
-   - 描述: 可多人协作的旅行规划平台  
-   - 简介: `TREK—可多人协作的旅行规划平台这是一款可自托管的旅行规划平台，支持多人实时协作、交互式地图、费用分摊、行李清单、预订管理和旅行计划等功能。它内置 MCP 服务，可结合 AI 助手规划旅行。liketrek·TypeScript·3 天前729`  
-   - 语言: `TypeScript`  
-   - 更新时间: `2026-07-31 02:53:36`  
-
-7. [hallmark](https://hellogithub.com/repository/Nutlope/hallmark)  
+6. [hallmark](https://hellogithub.com/repository/Nutlope/hallmark)  
    - 描述: 拒绝 AI 味的网页设计技能  
-   - 简介: `hallmark—拒绝 AI 味的网页设计技能这是一个面向 Claude Code、Cursor 和 Codex 的网页设计技能，旨在避免 AI 生成页面千篇一律。它内置 20 个主题、4 种命令模式、57Nutlope·CSS·3 天前464`  
+   - 简介: `hallmark—拒绝 AI 味的网页设计技能这是一个面向 Claude Code、Cursor 和 Codex 的网页设计技能，旨在避免 AI 生成页面千篇一律。它内置 20 个主题、4 种命令模式、57Nutlope·CSS·4 天前594`  
    - 语言: `CSS`  
-   - 更新时间: `2026-07-31 02:53:36`  
+   - 更新时间: `2026-08-01 02:53:20`  
+
+7. [TREK](https://hellogithub.com/repository/liketrek/TREK)  
+   - 描述: 可多人协作的旅行规划平台  
+   - 简介: `TREK—可多人协作的旅行规划平台这是一款可自托管的旅行规划平台，支持多人实时协作、交互式地图、费用分摊、行李清单、预订管理和旅行计划等功能。它内置 MCP 服务，可结合 AI 助手规划旅行。liketrek·TypeScript·4 天前854`  
+   - 语言: `TypeScript`  
+   - 更新时间: `2026-08-01 02:53:20`  
 
 8. [86Box](https://hellogithub.com/repository/86Box/86Box)  
    - 描述: 复古 PC 模拟器  
-   - 简介: `86Box—复古 PC 模拟器1这是一款开源的复古电脑模拟器，可自由搭配、模拟各种经典硬件，比如奔腾、赛扬处理器、声卡、显卡等。支持运行 DOS、Windows 98、Windows XP 等86Box·C·3 天前371`  
+   - 简介: `86Box—复古 PC 模拟器1这是一款开源的复古电脑模拟器，可自由搭配、模拟各种经典硬件，比如奔腾、赛扬处理器、声卡、显卡等。支持运行 DOS、Windows 98、Windows XP 等86Box·C·4 天前467`  
    - 语言: `C`  
-   - 更新时间: `2026-07-31 02:53:36`  
+   - 更新时间: `2026-08-01 02:53:20`  
 
 <!--POPULAR_REPOS_END-->
 ---
