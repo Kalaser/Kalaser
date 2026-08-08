@@ -32,51 +32,51 @@
 <!--POPULAR_REPOS-->
 1. [ai-agent-book](https://hellogithub.com/repository/bojieli/ai-agent-book)  
    - 描述: 《深入理解 AI Agent：设计原理与工程实践》  
-   - 简介: `ai-agent-book—《深入理解 AI Agent：设计原理与工程实践》2这是一本讲解 AI Agent 的开源中文书籍，围绕「Agent = LLM + 上下文 + 工具」展开，共 10 章。内容从原理讲到生产实践，涵盖上下文工程、bojieli·Python·10 天前2.6k`  
+   - 简介: `ai-agent-book—《深入理解 AI Agent：设计原理与工程实践》2这是一本讲解 AI Agent 的开源中文书籍，围绕「Agent = LLM + 上下文 + 工具」展开，共 10 章。内容从原理讲到生产实践，涵盖上下文工程、bojieli·Python·11 天前2.8k`  
    - 语言: `Python`  
-   - 更新时间: `2026-08-07 02:42:24`  
+   - 更新时间: `2026-08-08 01:42:50`  
 
 2. [HypoMux](https://hellogithub.com/repository/Hypostasis-Cat/HypoMux)  
    - 描述: 把多张网卡的带宽叠加起来  
-   - 简介: `HypoMux—把多张网卡的带宽叠加起来4这是一款专为 Windows 平台打造的多网卡带宽聚合下载加速工具。当电脑同时接入网线、Wi-Fi 或手机热点时，它可将下载任务分配到不同网卡上，实现远超单网卡Hypostasis-Cat·Go·10 天前2k`  
+   - 简介: `HypoMux—把多张网卡的带宽叠加起来4这是一款专为 Windows 平台打造的多网卡带宽聚合下载加速工具。当电脑同时接入网线、Wi-Fi 或手机热点时，它可将下载任务分配到不同网卡上，实现远超单网卡Hypostasis-Cat·Go·11 天前2.2k`  
    - 语言: `Go`  
-   - 更新时间: `2026-08-07 02:42:24`  
+   - 更新时间: `2026-08-08 01:42:50`  
 
 3. [archify](https://hellogithub.com/repository/tt-a1i/archify)  
    - 描述: 让 AI 读代码画出架构图  
-   - 简介: `archify—让 AI 读代码画出架构图这是一款面向 Codex、Claude Code、Cursor 和 OpenCode 的架构图生成技能，可读取代码仓库或系统描述，生成可交互的架构图。它提供 5tt-a1i·HTML·10 天前1.7k`  
+   - 简介: `archify—让 AI 读代码画出架构图这是一款面向 Codex、Claude Code、Cursor 和 OpenCode 的架构图生成技能，可读取代码仓库或系统描述，生成可交互的架构图。它提供 5tt-a1i·HTML·11 天前1.8k`  
    - 语言: `HTML`  
-   - 更新时间: `2026-08-07 02:42:24`  
+   - 更新时间: `2026-08-08 01:42:50`  
 
 4. [magic-resume](https://hellogithub.com/repository/JOYCEQL/magic-resume)  
    - 描述: 在线 AI 简历编辑器  
-   - 简介: `magic-resume—在线 AI 简历编辑器这是一款免费的在线 AI 简历编辑器，无需登录、内置多种模板。它基于 TanStack Start、TypeScript 和 Tiptap 构建，支持实时预览、JOYCEQL·TypeScript·10 天前1.3k`  
+   - 简介: `magic-resume—在线 AI 简历编辑器这是一款免费的在线 AI 简历编辑器，无需登录、内置多种模板。它基于 TanStack Start、TypeScript 和 Tiptap 构建，支持实时预览、JOYCEQL·TypeScript·11 天前1.4k`  
    - 语言: `TypeScript`  
-   - 更新时间: `2026-08-07 02:42:24`  
+   - 更新时间: `2026-08-08 01:42:50`  
 
 5. [FluentCleaner](https://hellogithub.com/repository/builtbybel/FluentCleaner)  
    - 描述: 更好用的 Windows 系统清理工具  
-   - 简介: `FluentCleaner—更好用的 Windows 系统清理工具2这是一款基于 WinUI 3 构建的 Windows 系统清理工具，灵感来自经典的 CCleaner。它使用维护多年、覆盖数千款应用的 winapp2.ini builtbybel·C#·10 天前1.3k`  
+   - 简介: `FluentCleaner—更好用的 Windows 系统清理工具2这是一款基于 WinUI 3 构建的 Windows 系统清理工具，灵感来自经典的 CCleaner。它使用维护多年、覆盖数千款应用的 winapp2.ini builtbybel·C#·11 天前1.4k`  
    - 语言: `C#`  
-   - 更新时间: `2026-08-07 02:42:24`  
+   - 更新时间: `2026-08-08 01:42:50`  
 
 6. [wenyi](https://hellogithub.com/repository/BigDawnGhost/wenyi)  
    - 描述: 整本翻译外文小说的工具  
-   - 简介: `wenyi—整本翻译外文小说的工具1这是一个用于翻译长篇小说的命令行工具，支持 EPUB、FB2、TXT、Markdown、HTML 和 PDF 文件格式。它通过全书分析、滚动上下文、动态术语表、BigDawnGhost·Python·10 天前591`  
+   - 简介: `wenyi—整本翻译外文小说的工具1这是一个用于翻译长篇小说的命令行工具，支持 EPUB、FB2、TXT、Markdown、HTML 和 PDF 文件格式。它通过全书分析、滚动上下文、动态术语表、BigDawnGhost·Python·11 天前653`  
    - 语言: `Python`  
-   - 更新时间: `2026-08-07 02:42:24`  
+   - 更新时间: `2026-08-08 01:42:50`  
 
 7. [jabref](https://hellogithub.com/repository/JabRef/jabref)  
    - 描述: 写论文用的文献管理工具  
-   - 简介: `jabref—写论文用的文献管理工具1这是一款免费开源、跨平台的文献与引用管理工具，原生支持 BibTeX/BibLaTeX。它可以从 Google 学术、arXiv 等平台检索论文，自动补全文献信JabRef·Java·10 天前561`  
+   - 简介: `jabref—写论文用的文献管理工具1这是一款免费开源、跨平台的文献与引用管理工具，原生支持 BibTeX/BibLaTeX。它可以从 Google 学术、arXiv 等平台检索论文，自动补全文献信JabRef·Java·11 天前601`  
    - 语言: `Java`  
-   - 更新时间: `2026-08-07 02:42:24`  
+   - 更新时间: `2026-08-08 01:42:50`  
 
 8. [exercises-dataset](https://hellogithub.com/repository/hasaneyldrm/exercises-dataset)  
    - 描述: 上千个健身动作的集合  
-   - 简介: `exercises-dataset—上千个健身动作的集合这是一份包含 1000+ 个健身动作的开放数据集，每条记录标注了动作名称、目标肌群、协同肌肉、所需器械和分步教程。教程提供中文等 10 种语言，并配有 180xhasaneyldrm·HTML·10 天前1.5k`  
+   - 简介: `exercises-dataset—上千个健身动作的集合这是一份包含 1000+ 个健身动作的开放数据集，每条记录标注了动作名称、目标肌群、协同肌肉、所需器械和分步教程。教程提供中文等 10 种语言，并配有 180xhasaneyldrm·HTML·11 天前1.6k`  
    - 语言: `HTML`  
-   - 更新时间: `2026-08-07 02:42:24`  
+   - 更新时间: `2026-08-08 01:42:50`  
 
 <!--POPULAR_REPOS_END-->
 ---
