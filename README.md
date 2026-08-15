@@ -32,51 +32,51 @@
 <!--POPULAR_REPOS-->
 1. [ai-agent-book](https://hellogithub.com/repository/bojieli/ai-agent-book)  
    - 描述: 《深入理解 AI Agent：设计原理与工程实践》  
-   - 简介: `ai-agent-book—《深入理解 AI Agent：设计原理与工程实践》3这是一本讲解 AI Agent 的开源中文书籍，围绕「Agent = LLM + 上下文 + 工具」展开，共 10 章。内容从原理讲到生产实践，涵盖上下文工程、bojieli·Python·17 天前4.1k`  
+   - 简介: `ai-agent-book—《深入理解 AI Agent：设计原理与工程实践》3这是一本讲解 AI Agent 的开源中文书籍，围绕「Agent = LLM + 上下文 + 工具」展开，共 10 章。内容从原理讲到生产实践，涵盖上下文工程、bojieli·Python·18 天前4.3k`  
    - 语言: `Python`  
-   - 更新时间: `2026-08-14 02:00:19`  
+   - 更新时间: `2026-08-15 01:16:24`  
 
 2. [magic-resume](https://hellogithub.com/repository/JOYCEQL/magic-resume)  
    - 描述: 在线 AI 简历编辑器  
-   - 简介: `magic-resume—在线 AI 简历编辑器1这是一款免费的在线 AI 简历编辑器，无需登录、内置多种模板。它基于 TanStack Start、TypeScript 和 Tiptap 构建，支持实时预览、JOYCEQL·TypeScript·17 天前2k`  
+   - 简介: `magic-resume—在线 AI 简历编辑器1这是一款免费的在线 AI 简历编辑器，无需登录、内置多种模板。它基于 TanStack Start、TypeScript 和 Tiptap 构建，支持实时预览、JOYCEQL·TypeScript·18 天前2.1k`  
    - 语言: `TypeScript`  
-   - 更新时间: `2026-08-14 02:00:19`  
+   - 更新时间: `2026-08-15 01:16:24`  
 
 3. [HypoMux](https://hellogithub.com/repository/Hypostasis-Cat/HypoMux)  
    - 描述: 把多张网卡的带宽叠加起来  
-   - 简介: `HypoMux—把多张网卡的带宽叠加起来4这是一款专为 Windows 平台打造的多网卡带宽聚合下载加速工具。当电脑同时接入网线、Wi-Fi 或手机热点时，它可将下载任务分配到不同网卡上，实现远超单网卡Hypostasis-Cat·Go·17 天前2.8k`  
+   - 简介: `HypoMux—把多张网卡的带宽叠加起来4这是一款专为 Windows 平台打造的多网卡带宽聚合下载加速工具。当电脑同时接入网线、Wi-Fi 或手机热点时，它可将下载任务分配到不同网卡上，实现远超单网卡Hypostasis-Cat·Go·18 天前2.9k`  
    - 语言: `Go`  
-   - 更新时间: `2026-08-14 02:00:19`  
+   - 更新时间: `2026-08-15 01:16:24`  
 
 4. [FluentCleaner](https://hellogithub.com/repository/builtbybel/FluentCleaner)  
    - 描述: 更好用的 Windows 系统清理工具  
-   - 简介: `FluentCleaner—更好用的 Windows 系统清理工具3这是一款基于 WinUI 3 构建的 Windows 系统清理工具，灵感来自经典的 CCleaner。它使用维护多年、覆盖数千款应用的 winapp2.ini builtbybel·C#·17 天前2.1k`  
+   - 简介: `FluentCleaner—更好用的 Windows 系统清理工具3这是一款基于 WinUI 3 构建的 Windows 系统清理工具，灵感来自经典的 CCleaner。它使用维护多年、覆盖数千款应用的 winapp2.ini builtbybel·C#·18 天前2.2k`  
    - 语言: `C#`  
-   - 更新时间: `2026-08-14 02:00:19`  
+   - 更新时间: `2026-08-15 01:16:24`  
 
 5. [archify](https://hellogithub.com/repository/tt-a1i/archify)  
    - 描述: 让 AI 读代码画出架构图  
-   - 简介: `archify—让 AI 读代码画出架构图这是一款面向 Codex、Claude Code、Cursor 和 OpenCode 的架构图生成技能，可读取代码仓库或系统描述，生成可交互的架构图。它提供 5tt-a1i·HTML·17 天前2.5k`  
+   - 简介: `archify—让 AI 读代码画出架构图这是一款面向 Codex、Claude Code、Cursor 和 OpenCode 的架构图生成技能，可读取代码仓库或系统描述，生成可交互的架构图。它提供 5tt-a1i·HTML·18 天前2.6k`  
    - 语言: `HTML`  
-   - 更新时间: `2026-08-14 02:00:19`  
+   - 更新时间: `2026-08-15 01:16:24`  
 
 6. [wenyi](https://hellogithub.com/repository/BigDawnGhost/wenyi)  
    - 描述: 整本翻译外文小说的工具  
-   - 简介: `wenyi—整本翻译外文小说的工具1这是一个用于翻译长篇小说的命令行工具，支持 EPUB、FB2、TXT、Markdown、HTML 和 PDF 文件格式。它通过全书分析、滚动上下文、动态术语表、BigDawnGhost·Python·17 天前954`  
+   - 简介: `wenyi—整本翻译外文小说的工具1这是一个用于翻译长篇小说的命令行工具，支持 EPUB、FB2、TXT、Markdown、HTML 和 PDF 文件格式。它通过全书分析、滚动上下文、动态术语表、BigDawnGhost·Python·18 天前1k`  
    - 语言: `Python`  
-   - 更新时间: `2026-08-14 02:00:19`  
+   - 更新时间: `2026-08-15 01:16:24`  
 
 7. [exercises-dataset](https://hellogithub.com/repository/hasaneyldrm/exercises-dataset)  
    - 描述: 上千个健身动作的集合  
-   - 简介: `exercises-dataset—上千个健身动作的集合这是一份包含 1000+ 个健身动作的开放数据集，每条记录标注了动作名称、目标肌群、协同肌肉、所需器械和分步教程。教程提供中文等 10 种语言，并配有 180xhasaneyldrm·HTML·17 天前2.1k`  
+   - 简介: `exercises-dataset—上千个健身动作的集合这是一份包含 1000+ 个健身动作的开放数据集，每条记录标注了动作名称、目标肌群、协同肌肉、所需器械和分步教程。教程提供中文等 10 种语言，并配有 180xhasaneyldrm·HTML·18 天前2.1k`  
    - 语言: `HTML`  
-   - 更新时间: `2026-08-14 02:00:19`  
+   - 更新时间: `2026-08-15 01:16:24`  
 
 8. [tolaria](https://hellogithub.com/repository/refactoringhq/tolaria)  
    - 描述: 基于 Git 的本地 Markdown 知识库工具  
-   - 简介: `tolaria—基于 Git 的本地 Markdown 知识库工具9这是一款用来管理 Markdown 知识库的桌面应用，每个知识库即一个 Git 仓库，天然拥有版本历史和变更记录。笔记以 Markdown 文件存储随时可迁移，refactoringhq·TypeScript·2 个月前6.7k`  
+   - 简介: `tolaria—基于 Git 的本地 Markdown 知识库工具9这是一款用来管理 Markdown 知识库的桌面应用，每个知识库即一个 Git 仓库，天然拥有版本历史和变更记录。笔记以 Markdown 文件存储随时可迁移，refactoringhq·TypeScript·2 个月前6.8k`  
    - 语言: `TypeScript`  
-   - 更新时间: `2026-08-14 02:00:19`  
+   - 更新时间: `2026-08-15 01:16:24`  
 
 <!--POPULAR_REPOS_END-->
 ---
