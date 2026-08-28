@@ -30,53 +30,53 @@
 ---
 ## 🔥 HelloGitHub 热门仓库
 <!--POPULAR_REPOS-->
-1. [ai-agent-book](https://hellogithub.com/repository/bojieli/ai-agent-book)  
-   - 描述: 《深入理解 AI Agent：设计原理与工程实践》  
-   - 简介: `ai-agent-book—《深入理解 AI Agent：设计原理与工程实践》4这是一本讲解 AI Agent 的开源中文书籍，围绕「Agent = LLM + 上下文 + 工具」展开，共 10 章。内容从原理讲到生产实践，涵盖上下文工程、bojieli·Python·1 个月前6.8k`  
+1. [prehistoric-animal-museum](https://hellogithub.com/repository/s010s/prehistoric-animal-museum)  
+   - 描述: 陪孩子在线逛史前动物博物馆  
+   - 简介: `prehistoric-animal-museum—陪孩子在线逛史前动物博物馆1该项目是专为儿童设计的 3D 史前动物博物馆，收录了海陆空 18 种动物，支持旋转缩放、中英双语旁白和设置探险形象等功能。s010s·TypeScript·10 小时前215`  
+   - 语言: `TypeScript`  
+   - 更新时间: `2026-08-28 10:02:16`  
+
+2. [dashi-ppt-skill](https://hellogithub.com/repository/chuspeeism/dashi-ppt-skill)  
+   - 描述: 让 AI Agent 帮你做 PPT  
+   - 简介: `dashi-ppt-skill—让 AI Agent 帮你做 PPT这是一个能够生成可编辑 PPT 的技能包，把文档丢给 Agent 即可生成网页版 PPT，支持在浏览器里直接修改文字、换图片、调布局，以及一键导出为可编辑的 Pchuspeeism·JavaScript·10 小时前270`  
+   - 语言: `JavaScript`  
+   - 更新时间: `2026-08-28 10:02:16`  
+
+3. [ian-xiaohei-illustrations](https://hellogithub.com/repository/helloianneo/ian-xiaohei-illustrations)  
+   - 描述: 为文章生成手绘配图的技能  
+   - 简介: `ian-xiaohei-illustrations—为文章生成手绘配图的技能该项目是用于生成中文文章配图的 Agent 技能，能够提炼文章中的判断、流程、状态和隐喻，画成白底、手绘、有趣和清爽的 16:9 正文配图。helloianneo·Other·10 小时前137`  
+   - 语言: `Other`  
+   - 更新时间: `2026-08-28 10:02:16`  
+
+4. [ServerKit](https://hellogithub.com/repository/jhd3197/ServerKit)  
+   - 描述: 轻量级的服务器控制面板  
+   - 简介: `ServerKit—轻量级的服务器控制面板这是一款采用 Flask 和 React 构建的服务器管理面板，运行时仅占 180MB 内存，可统一管理网站、数据库和 Docker 等服务。它内置 100 多jhd3197·Python·10 小时前185`  
    - 语言: `Python`  
-   - 更新时间: `2026-08-27 07:58:57`  
+   - 更新时间: `2026-08-28 10:02:16`  
 
-2. [magic-resume](https://hellogithub.com/repository/JOYCEQL/magic-resume)  
-   - 描述: 在线 AI 简历编辑器  
-   - 简介: `magic-resume—在线 AI 简历编辑器2这是一款免费的在线 AI 简历编辑器，无需登录、内置多种模板。它基于 TanStack Start、TypeScript 和 Tiptap 构建，支持实时预览、JOYCEQL·TypeScript·1 个月前3.4k`  
+5. [book-to-skill](https://hellogithub.com/repository/virgiliojr94/book-to-skill)  
+   - 描述: 把技术书变成智能体技能  
+   - 简介: `book-to-skill—把技术书变成智能体技能这是一款可以将技术书籍和文档转化成 Agent 技能的工具，让 AI 编程助手按需加载并基于原书内容回答。它会自动生成 SKILL.md、按章节拆分的文件、术语virgiliojr94·Python·10 小时前179`  
+   - 语言: `Python`  
+   - 更新时间: `2026-08-28 10:02:16`  
+
+6. [Lithe-IDEA](https://hellogithub.com/repository/1lck/Lithe-IDEA)  
+   - 描述: 轻量级的 Java IDE 编程工具  
+   - 简介: `Lithe-IDEA—轻量级的 Java IDE 编程工具这是一款面向 Java 和 Spring Boot 开发者的轻量级 IDE，运行时内存占用仅 300-400 MB，支持全局搜索、代码跳转、Maven、断点调试1lck·TypeScript·10 小时前155`  
    - 语言: `TypeScript`  
-   - 更新时间: `2026-08-27 07:58:57`  
+   - 更新时间: `2026-08-28 10:02:16`  
 
-3. [HypoMux](https://hellogithub.com/repository/Hypostasis-Cat/HypoMux)  
-   - 描述: 把多张网卡的带宽叠加起来  
-   - 简介: `HypoMux—把多张网卡的带宽叠加起来4这是一款专为 Windows 平台打造的多网卡带宽聚合下载加速工具。当电脑同时接入网线、Wi-Fi 或手机热点时，它可将下载任务分配到不同网卡上，实现远超单网卡Hypostasis-Cat·Go·1 个月前3.9k`  
-   - 语言: `Go`  
-   - 更新时间: `2026-08-27 07:58:57`  
+7. [airllm](https://hellogithub.com/repository/lyogavin/airllm)  
+   - 描述: 仅需 4GB 显存就能跑 70B 大模型  
+   - 简介: `airllm—仅需 4GB 显存就能跑 70B 大模型这是一个通过分层加载大幅降低推理显存占用的 Python 库，无需量化、蒸馏或剪枝，仅需 4GB 显存即可运行 70B 大模型。它支持 Llama 3.x、Qwlyogavin·Jupyter·10 小时前255`  
+   - 语言: `Jupyter`  
+   - 更新时间: `2026-08-28 10:02:16`  
 
-4. [FluentCleaner](https://hellogithub.com/repository/builtbybel/FluentCleaner)  
-   - 描述: 更好用的 Windows 系统清理工具  
-   - 简介: `FluentCleaner—更好用的 Windows 系统清理工具3这是一款基于 WinUI 3 构建的 Windows 系统清理工具，灵感来自经典的 CCleaner。它使用维护多年、覆盖数千款应用的 winapp2.ini builtbybel·C#·1 个月前3.3k`  
-   - 语言: `C#`  
-   - 更新时间: `2026-08-27 07:58:57`  
-
-5. [exercises-dataset](https://hellogithub.com/repository/hasaneyldrm/exercises-dataset)  
-   - 描述: 上千个健身动作的集合  
-   - 简介: `exercises-dataset—上千个健身动作的集合1这是一份包含 1000+ 个健身动作的开放数据集，每条记录标注了动作名称、目标肌群、协同肌肉、所需器械和分步教程。教程提供中文等 10 种语言，并配有 180xhasaneyldrm·HTML·1 个月前3k`  
-   - 语言: `HTML`  
-   - 更新时间: `2026-08-27 07:58:57`  
-
-6. [TREK](https://hellogithub.com/repository/liketrek/TREK)  
-   - 描述: 可多人协作的旅行规划平台  
-   - 简介: `TREK—可多人协作的旅行规划平台1这是一款可自托管的旅行规划平台，支持多人实时协作、交互式地图、费用分摊、行李清单、预订管理和旅行计划等功能。它内置 MCP 服务，可结合 AI 助手规划旅行。liketrek·TypeScript·1 个月前2.9k`  
-   - 语言: `TypeScript`  
-   - 更新时间: `2026-08-27 07:58:57`  
-
-7. [archify](https://hellogithub.com/repository/tt-a1i/archify)  
-   - 描述: 让 AI 读代码画出架构图  
-   - 简介: `archify—让 AI 读代码画出架构图这是一款面向 Codex、Claude Code、Cursor 和 OpenCode 的架构图生成技能，可读取代码仓库或系统描述，生成可交互的架构图。它提供 5tt-a1i·HTML·1 个月前3.8k`  
-   - 语言: `HTML`  
-   - 更新时间: `2026-08-27 07:58:57`  
-
-8. [hallmark](https://hellogithub.com/repository/Nutlope/hallmark)  
-   - 描述: 拒绝 AI 味的网页设计技能  
-   - 简介: `hallmark—拒绝 AI 味的网页设计技能这是一个面向 Claude Code、Cursor 和 Codex 的网页设计技能，旨在避免 AI 生成页面千篇一律。它内置 20 个主题、4 种命令模式、57Nutlope·CSS·1 个月前2.7k`  
-   - 语言: `CSS`  
-   - 更新时间: `2026-08-27 07:58:57`  
+8. [WindInput](https://hellogithub.com/repository/huanfeng/WindInput)  
+   - 描述: Rust 写的开源中文输入法  
+   - 简介: `WindInput—Rust 写的开源中文输入法这是一款用 Rust 编写的轻量级中文输入法，资源占用低、启动速度快，支持五笔 86、五笔拼音混输、全拼和双拼。huanfeng·Rust·10 小时前165`  
+   - 语言: `Rust`  
+   - 更新时间: `2026-08-28 10:02:16`  
 
 <!--POPULAR_REPOS_END-->
 ---
