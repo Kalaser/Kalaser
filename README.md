@@ -32,51 +32,51 @@
 <!--POPULAR_REPOS-->
 1. [Lithe-IDEA](https://hellogithub.com/repository/1lck/Lithe-IDEA)  
    - 描述: 轻量级的 Java IDE 编程工具  
-   - 简介: `Lithe-IDEA—轻量级的 Java IDE 编程工具2这是一款面向 Java 和 Spring Boot 开发者的轻量级 IDE，运行时内存占用仅 300-400 MB，支持全局搜索、代码跳转、Maven、断点调试1lck·TypeScript·3 天前527`  
+   - 简介: `Lithe-IDEA—轻量级的 Java IDE 编程工具2这是一款面向 Java 和 Spring Boot 开发者的轻量级 IDE，运行时内存占用仅 300-400 MB，支持全局搜索、代码跳转、Maven、断点调试1lck·TypeScript·4 天前782`  
    - 语言: `TypeScript`  
-   - 更新时间: `2026-08-31 04:12:40`  
+   - 更新时间: `2026-09-01 03:59:22`  
 
 2. [prehistoric-animal-museum](https://hellogithub.com/repository/s010s/prehistoric-animal-museum)  
    - 描述: 陪孩子在线逛史前动物博物馆  
-   - 简介: `prehistoric-animal-museum—陪孩子在线逛史前动物博物馆1该项目是专为儿童设计的 3D 史前动物博物馆，收录了海陆空 18 种动物，支持旋转缩放、中英双语旁白和设置探险形象等功能。s010s·TypeScript·3 天前622`  
+   - 简介: `prehistoric-animal-museum—陪孩子在线逛史前动物博物馆1该项目是专为儿童设计的 3D 史前动物博物馆，收录了海陆空 18 种动物，支持旋转缩放、中英双语旁白和设置探险形象等功能。s010s·TypeScript·4 天前828`  
    - 语言: `TypeScript`  
-   - 更新时间: `2026-08-31 04:12:40`  
+   - 更新时间: `2026-09-01 03:59:22`  
 
 3. [dashi-ppt-skill](https://hellogithub.com/repository/chuspeeism/dashi-ppt-skill)  
    - 描述: 让 AI Agent 帮你做 PPT  
-   - 简介: `dashi-ppt-skill—让 AI Agent 帮你做 PPT这是一个能够生成可编辑 PPT 的技能包，把文档丢给 Agent 即可生成网页版 PPT，支持在浏览器里直接修改文字、换图片、调布局，以及一键导出为可编辑的 Pchuspeeism·JavaScript·3 天前647`  
+   - 简介: `dashi-ppt-skill—让 AI Agent 帮你做 PPT这是一个能够生成可编辑 PPT 的技能包，把文档丢给 Agent 即可生成网页版 PPT，支持在浏览器里直接修改文字、换图片、调布局，以及一键导出为可编辑的 Pchuspeeism·JavaScript·4 天前847`  
    - 语言: `JavaScript`  
-   - 更新时间: `2026-08-31 04:12:40`  
+   - 更新时间: `2026-09-01 03:59:22`  
 
 4. [airllm](https://hellogithub.com/repository/lyogavin/airllm)  
    - 描述: 仅需 4GB 显存就能跑 70B 大模型  
-   - 简介: `airllm—仅需 4GB 显存就能跑 70B 大模型这是一个通过分层加载大幅降低推理显存占用的 Python 库，无需量化、蒸馏或剪枝，仅需 4GB 显存即可运行 70B 大模型。它支持 Llama 3.x、Qwlyogavin·Jupyter·3 天前647`  
+   - 简介: `airllm—仅需 4GB 显存就能跑 70B 大模型这是一个通过分层加载大幅降低推理显存占用的 Python 库，无需量化、蒸馏或剪枝，仅需 4GB 显存即可运行 70B 大模型。它支持 Llama 3.x、Qwlyogavin·Jupyter·4 天前883`  
    - 语言: `Jupyter`  
-   - 更新时间: `2026-08-31 04:12:40`  
+   - 更新时间: `2026-09-01 03:59:22`  
 
 5. [ian-xiaohei-illustrations](https://hellogithub.com/repository/helloianneo/ian-xiaohei-illustrations)  
    - 描述: 为文章生成手绘配图的技能  
-   - 简介: `ian-xiaohei-illustrations—为文章生成手绘配图的技能该项目是用于生成中文文章配图的 Agent 技能，能够提炼文章中的判断、流程、状态和隐喻，画成白底、手绘、有趣和清爽的 16:9 正文配图。helloianneo·Other·3 天前360`  
+   - 简介: `ian-xiaohei-illustrations—为文章生成手绘配图的技能该项目是用于生成中文文章配图的 Agent 技能，能够提炼文章中的判断、流程、状态和隐喻，画成白底、手绘、有趣和清爽的 16:9 正文配图。helloianneo·Other·4 天前463`  
    - 语言: `Other`  
-   - 更新时间: `2026-08-31 04:12:40`  
+   - 更新时间: `2026-09-01 03:59:22`  
 
-6. [book-to-skill](https://hellogithub.com/repository/virgiliojr94/book-to-skill)  
-   - 描述: 把技术书变成智能体技能  
-   - 简介: `book-to-skill—把技术书变成智能体技能这是一款可以将技术书籍和文档转化成 Agent 技能的工具，让 AI 编程助手按需加载并基于原书内容回答。它会自动生成 SKILL.md、按章节拆分的文件、术语virgiliojr94·Python·3 天前492`  
-   - 语言: `Python`  
-   - 更新时间: `2026-08-31 04:12:40`  
-
-7. [ServerKit](https://hellogithub.com/repository/jhd3197/ServerKit)  
-   - 描述: 轻量级的服务器控制面板  
-   - 简介: `ServerKit—轻量级的服务器控制面板这是一款采用 Flask 和 React 构建的服务器管理面板，运行时仅占 180MB 内存，可统一管理网站、数据库和 Docker 等服务。它内置 100 多jhd3197·Python·3 天前393`  
-   - 语言: `Python`  
-   - 更新时间: `2026-08-31 04:12:40`  
-
-8. [DeskBox](https://hellogithub.com/repository/Tianyu199509/DeskBox)  
+6. [DeskBox](https://hellogithub.com/repository/Tianyu199509/DeskBox)  
    - 描述: 让 Windows 桌面井然有序  
-   - 简介: `DeskBox—让 Windows 桌面井然有序这是一款开源的 Windows 桌面整理工具，为桌面加入具有 Windows 原生质感的文件格子和日常工具。它内置待办、随记、搜索、天气和音乐控制等小组件，支持Tianyu199509·C#·3 天前680`  
+   - 简介: `DeskBox—让 Windows 桌面井然有序这是一款开源的 Windows 桌面整理工具，为桌面加入具有 Windows 原生质感的文件格子和日常工具。它内置待办、随记、搜索、天气和音乐控制等小组件，支持Tianyu199509·C#·4 天前937`  
    - 语言: `C#`  
-   - 更新时间: `2026-08-31 04:12:40`  
+   - 更新时间: `2026-09-01 03:59:22`  
+
+7. [book-to-skill](https://hellogithub.com/repository/virgiliojr94/book-to-skill)  
+   - 描述: 把技术书变成智能体技能  
+   - 简介: `book-to-skill—把技术书变成智能体技能这是一款可以将技术书籍和文档转化成 Agent 技能的工具，让 AI 编程助手按需加载并基于原书内容回答。它会自动生成 SKILL.md、按章节拆分的文件、术语virgiliojr94·Python·4 天前640`  
+   - 语言: `Python`  
+   - 更新时间: `2026-09-01 03:59:22`  
+
+8. [ServerKit](https://hellogithub.com/repository/jhd3197/ServerKit)  
+   - 描述: 轻量级的服务器控制面板  
+   - 简介: `ServerKit—轻量级的服务器控制面板这是一款采用 Flask 和 React 构建的服务器管理面板，运行时仅占 180MB 内存，可统一管理网站、数据库和 Docker 等服务。它内置 100 多jhd3197·Python·4 天前499`  
+   - 语言: `Python`  
+   - 更新时间: `2026-09-01 03:59:22`  
 
 <!--POPULAR_REPOS_END-->
 ---
