@@ -32,51 +32,51 @@
 <!--POPULAR_REPOS-->
 1. [DeskBox](https://hellogithub.com/repository/Tianyu199509/DeskBox)  
    - 描述: 让 Windows 桌面井然有序  
-   - 简介: `DeskBox—让 Windows 桌面井然有序6这是一款开源的 Windows 桌面整理工具，为桌面加入具有 Windows 原生质感的文件格子和日常工具。它内置待办、随记、搜索、天气和音乐控制等小组件，支持Tianyu199509·C#·14 天前3.6k`  
+   - 简介: `DeskBox—让 Windows 桌面井然有序6这是一款开源的 Windows 桌面整理工具，为桌面加入具有 Windows 原生质感的文件格子和日常工具。它内置待办、随记、搜索、天气和音乐控制等小组件，支持Tianyu199509·C#·15 天前3.9k`  
    - 语言: `C#`  
-   - 更新时间: `2026-09-11 03:27:30`  
+   - 更新时间: `2026-09-12 03:33:16`  
 
 2. [Lithe-IDEA](https://hellogithub.com/repository/1lck/Lithe-IDEA)  
    - 描述: 轻量级的 Java IDE 编程工具  
-   - 简介: `Lithe-IDEA—轻量级的 Java IDE 编程工具7这是一款面向 Java 和 Spring Boot 开发者的轻量级 IDE，运行时内存占用仅 300-400 MB，支持全局搜索、代码跳转、Maven、断点调试1lck·TypeScript·14 天前2.4k`  
+   - 简介: `Lithe-IDEA—轻量级的 Java IDE 编程工具8这是一款面向 Java 和 Spring Boot 开发者的轻量级 IDE，运行时内存占用仅 300-400 MB，支持全局搜索、代码跳转、Maven、断点调试1lck·TypeScript·15 天前2.5k`  
    - 语言: `TypeScript`  
-   - 更新时间: `2026-09-11 03:27:30`  
+   - 更新时间: `2026-09-12 03:33:16`  
 
 3. [book-to-skill](https://hellogithub.com/repository/virgiliojr94/book-to-skill)  
    - 描述: 把技术书变成智能体技能  
-   - 简介: `book-to-skill—把技术书变成智能体技能2这是一款可以将技术书籍和文档转化成 Agent 技能的工具，让 AI 编程助手按需加载并基于原书内容回答。它会自动生成 SKILL.md、按章节拆分的文件、术语virgiliojr94·Python·14 天前1.9k`  
+   - 简介: `book-to-skill—把技术书变成智能体技能3这是一款可以将技术书籍和文档转化成 Agent 技能的工具，让 AI 编程助手按需加载并基于原书内容回答。它会自动生成 SKILL.md、按章节拆分的文件、术语virgiliojr94·Python·15 天前2.1k`  
    - 语言: `Python`  
-   - 更新时间: `2026-09-11 03:27:30`  
+   - 更新时间: `2026-09-12 03:33:16`  
 
 4. [prehistoric-animal-museum](https://hellogithub.com/repository/s010s/prehistoric-animal-museum)  
    - 描述: 陪孩子在线逛史前动物博物馆  
-   - 简介: `prehistoric-animal-museum—陪孩子在线逛史前动物博物馆2该项目是专为儿童设计的 3D 史前动物博物馆，收录了海陆空 18 种动物，支持旋转缩放、中英双语旁白和设置探险形象等功能。s010s·TypeScript·14 天前2.1k`  
+   - 简介: `prehistoric-animal-museum—陪孩子在线逛史前动物博物馆2该项目是专为儿童设计的 3D 史前动物博物馆，收录了海陆空 18 种动物，支持旋转缩放、中英双语旁白和设置探险形象等功能。s010s·TypeScript·15 天前2.2k`  
    - 语言: `TypeScript`  
-   - 更新时间: `2026-09-11 03:27:30`  
+   - 更新时间: `2026-09-12 03:33:16`  
 
 5. [dashi-ppt-skill](https://hellogithub.com/repository/chuspeeism/dashi-ppt-skill)  
    - 描述: 让 AI Agent 帮你做 PPT  
-   - 简介: `dashi-ppt-skill—让 AI Agent 帮你做 PPT这是一个能够生成可编辑 PPT 的技能包，把文档丢给 Agent 即可生成网页版 PPT，支持在浏览器里直接修改文字、换图片、调布局，以及一键导出为可编辑的 Pchuspeeism·JavaScript·14 天前2.2k`  
+   - 简介: `dashi-ppt-skill—让 AI Agent 帮你做 PPT这是一个能够生成可编辑 PPT 的技能包，把文档丢给 Agent 即可生成网页版 PPT，支持在浏览器里直接修改文字、换图片、调布局，以及一键导出为可编辑的 Pchuspeeism·JavaScript·15 天前2.3k`  
    - 语言: `JavaScript`  
-   - 更新时间: `2026-09-11 03:27:30`  
+   - 更新时间: `2026-09-12 03:33:16`  
 
-6. [airllm](https://hellogithub.com/repository/lyogavin/airllm)  
-   - 描述: 仅需 4GB 显存就能跑 70B 大模型  
-   - 简介: `airllm—仅需 4GB 显存就能跑 70B 大模型2这是一个通过分层加载大幅降低推理显存占用的 Python 库，无需量化、蒸馏或剪枝，仅需 4GB 显存即可运行 70B 大模型。它支持 Llama 3.x、Qwlyogavin·Jupyter·14 天前2.5k`  
-   - 语言: `Jupyter`  
-   - 更新时间: `2026-09-11 03:27:30`  
-
-7. [ai-agent-book](https://hellogithub.com/repository/bojieli/ai-agent-book)  
+6. [ai-agent-book](https://hellogithub.com/repository/bojieli/ai-agent-book)  
    - 描述: 《深入理解 AI Agent：设计原理与工程实践》  
-   - 简介: `ai-agent-book—《深入理解 AI Agent：设计原理与工程实践》4这是一本讲解 AI Agent 的开源中文书籍，围绕「Agent = LLM + 上下文 + 工具」展开，共 10 章。内容从原理讲到生产实践，涵盖上下文工程、bojieli·Python·1 个月前7.8k`  
+   - 简介: `ai-agent-book—《深入理解 AI Agent：设计原理与工程实践》4这是一本讲解 AI Agent 的开源中文书籍，围绕「Agent = LLM + 上下文 + 工具」展开，共 10 章。内容从原理讲到生产实践，涵盖上下文工程、bojieli·Python·1 个月前7.9k`  
    - 语言: `Python`  
-   - 更新时间: `2026-09-11 03:27:30`  
+   - 更新时间: `2026-09-12 03:33:16`  
+
+7. [airllm](https://hellogithub.com/repository/lyogavin/airllm)  
+   - 描述: 仅需 4GB 显存就能跑 70B 大模型  
+   - 简介: `airllm—仅需 4GB 显存就能跑 70B 大模型2这是一个通过分层加载大幅降低推理显存占用的 Python 库，无需量化、蒸馏或剪枝，仅需 4GB 显存即可运行 70B 大模型。它支持 Llama 3.x、Qwlyogavin·Jupyter·15 天前2.6k`  
+   - 语言: `Jupyter`  
+   - 更新时间: `2026-09-12 03:33:16`  
 
 8. [ian-xiaohei-illustrations](https://hellogithub.com/repository/helloianneo/ian-xiaohei-illustrations)  
    - 描述: 为文章生成手绘配图的技能  
-   - 简介: `ian-xiaohei-illustrations—为文章生成手绘配图的技能该项目是用于生成中文文章配图的 Agent 技能，能够提炼文章中的判断、流程、状态和隐喻，画成白底、手绘、有趣和清爽的 16:9 正文配图。helloianneo·Other·14 天前1.3k`  
+   - 简介: `ian-xiaohei-illustrations—为文章生成手绘配图的技能该项目是用于生成中文文章配图的 Agent 技能，能够提炼文章中的判断、流程、状态和隐喻，画成白底、手绘、有趣和清爽的 16:9 正文配图。helloianneo·Other·15 天前1.4k`  
    - 语言: `Other`  
-   - 更新时间: `2026-09-11 03:27:30`  
+   - 更新时间: `2026-09-12 03:33:16`  
 
 <!--POPULAR_REPOS_END-->
 ---
