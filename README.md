@@ -32,51 +32,51 @@
 <!--POPULAR_REPOS-->
 1. [rustfs](https://hellogithub.com/repository/rustfs/rustfs)  
    - 描述: 基于 Rust 的高性能分布式存储系统  
-   - 简介: `rustfs—基于 Rust 的高性能分布式存储系统5该项是用 Rust 构建的高性能分布式对象存储系统，致力于成为 MinIO 的开源替代品。它安装简单、兼容 S3 协议，采用更友好的开源协议，并内置界面清爽的 rustfs·Rust·1 年前8k`  
+   - 简介: `rustfs—基于 Rust 的高性能分布式存储系统5该项是用 Rust 构建的高性能分布式对象存储系统，致力于成为 MinIO 的开源替代品。它安装简单、兼容 S3 协议，采用更友好的开源协议，并内置界面清爽的 rustfs·Rust·1 年前8.1k`  
    - 语言: `Rust`  
-   - 更新时间: `2026-09-19 03:34:32`  
+   - 更新时间: `2026-09-20 03:50:26`  
 
 2. [DeskBox](https://hellogithub.com/repository/Tianyu199509/DeskBox)  
    - 描述: 让 Windows 桌面井然有序  
-   - 简介: `DeskBox—让 Windows 桌面井然有序8这是一款开源的 Windows 桌面整理工具，为桌面加入具有 Windows 原生质感的文件格子和日常工具。它内置待办、随记、搜索、天气和音乐控制等小组件，支持Tianyu199509·C#·22 天前5.7k`  
+   - 简介: `DeskBox—让 Windows 桌面井然有序8这是一款开源的 Windows 桌面整理工具，为桌面加入具有 Windows 原生质感的文件格子和日常工具。它内置待办、随记、搜索、天气和音乐控制等小组件，支持Tianyu199509·C#·23 天前6k`  
    - 语言: `C#`  
-   - 更新时间: `2026-09-19 03:34:32`  
+   - 更新时间: `2026-09-20 03:50:26`  
 
 3. [book-to-skill](https://hellogithub.com/repository/virgiliojr94/book-to-skill)  
    - 描述: 把技术书变成智能体技能  
-   - 简介: `book-to-skill—把技术书变成智能体技能3这是一款可以将技术书籍和文档转化成 Agent 技能的工具，让 AI 编程助手按需加载并基于原书内容回答。它会自动生成 SKILL.md、按章节拆分的文件、术语virgiliojr94·Python·22 天前3.2k`  
+   - 简介: `book-to-skill—把技术书变成智能体技能3这是一款可以将技术书籍和文档转化成 Agent 技能的工具，让 AI 编程助手按需加载并基于原书内容回答。它会自动生成 SKILL.md、按章节拆分的文件、术语virgiliojr94·Python·23 天前3.3k`  
    - 语言: `Python`  
-   - 更新时间: `2026-09-19 03:34:32`  
+   - 更新时间: `2026-09-20 03:50:26`  
 
 4. [dashi-ppt-skill](https://hellogithub.com/repository/chuspeeism/dashi-ppt-skill)  
    - 描述: 让 AI Agent 帮你做 PPT  
-   - 简介: `dashi-ppt-skill—让 AI Agent 帮你做 PPT这是一个能够生成可编辑 PPT 的技能包，把文档丢给 Agent 即可生成网页版 PPT，支持在浏览器里直接修改文字、换图片、调布局，以及一键导出为可编辑的 Pchuspeeism·JavaScript·22 天前3.1k`  
+   - 简介: `dashi-ppt-skill—让 AI Agent 帮你做 PPT这是一个能够生成可编辑 PPT 的技能包，把文档丢给 Agent 即可生成网页版 PPT，支持在浏览器里直接修改文字、换图片、调布局，以及一键导出为可编辑的 Pchuspeeism·JavaScript·23 天前3.2k`  
    - 语言: `JavaScript`  
-   - 更新时间: `2026-09-19 03:34:32`  
+   - 更新时间: `2026-09-20 03:50:26`  
 
 5. [Lithe-IDEA](https://hellogithub.com/repository/1lck/Lithe-IDEA)  
    - 描述: 轻量级的 Java IDE 编程工具  
-   - 简介: `Lithe-IDEA—轻量级的 Java IDE 编程工具8这是一款面向 Java 和 Spring Boot 开发者的轻量级 IDE，运行时内存占用仅 300-400 MB，支持全局搜索、代码跳转、Maven、断点调试1lck·TypeScript·22 天前3.3k`  
+   - 简介: `Lithe-IDEA—轻量级的 Java IDE 编程工具8这是一款面向 Java 和 Spring Boot 开发者的轻量级 IDE，运行时内存占用仅 300-400 MB，支持全局搜索、代码跳转、Maven、断点调试1lck·TypeScript·23 天前3.3k`  
    - 语言: `TypeScript`  
-   - 更新时间: `2026-09-19 03:34:32`  
+   - 更新时间: `2026-09-20 03:50:26`  
 
 6. [prehistoric-animal-museum](https://hellogithub.com/repository/s010s/prehistoric-animal-museum)  
    - 描述: 陪孩子在线逛史前动物博物馆  
-   - 简介: `prehistoric-animal-museum—陪孩子在线逛史前动物博物馆2该项目是专为儿童设计的 3D 史前动物博物馆，收录了海陆空 18 种动物，支持旋转缩放、中英双语旁白和设置探险形象等功能。s010s·TypeScript·22 天前2.7k`  
+   - 简介: `prehistoric-animal-museum—陪孩子在线逛史前动物博物馆2该项目是专为儿童设计的 3D 史前动物博物馆，收录了海陆空 18 种动物，支持旋转缩放、中英双语旁白和设置探险形象等功能。s010s·TypeScript·23 天前2.8k`  
    - 语言: `TypeScript`  
-   - 更新时间: `2026-09-19 03:34:32`  
+   - 更新时间: `2026-09-20 03:50:26`  
 
 7. [ai-agent-book](https://hellogithub.com/repository/bojieli/ai-agent-book)  
    - 描述: 《深入理解 AI Agent：设计原理与工程实践》  
-   - 简介: `ai-agent-book—《深入理解 AI Agent：设计原理与工程实践》4这是一本讲解 AI Agent 的开源中文书籍，围绕「Agent = LLM + 上下文 + 工具」展开，共 10 章。内容从原理讲到生产实践，涵盖上下文工程、bojieli·Python·2 个月前8.6k`  
+   - 简介: `ai-agent-book—《深入理解 AI Agent：设计原理与工程实践》4这是一本讲解 AI Agent 的开源中文书籍，围绕「Agent = LLM + 上下文 + 工具」展开，共 10 章。内容从原理讲到生产实践，涵盖上下文工程、bojieli·Python·2 个月前8.7k`  
    - 语言: `Python`  
-   - 更新时间: `2026-09-19 03:34:32`  
+   - 更新时间: `2026-09-20 03:50:26`  
 
 8. [airllm](https://hellogithub.com/repository/lyogavin/airllm)  
    - 描述: 仅需 4GB 显存就能跑 70B 大模型  
-   - 简介: `airllm—仅需 4GB 显存就能跑 70B 大模型2这是一个通过分层加载大幅降低推理显存占用的 Python 库，无需量化、蒸馏或剪枝，仅需 4GB 显存即可运行 70B 大模型。它支持 Llama 3.x、Qwlyogavin·Jupyter·22 天前3.3k`  
+   - 简介: `airllm—仅需 4GB 显存就能跑 70B 大模型2这是一个通过分层加载大幅降低推理显存占用的 Python 库，无需量化、蒸馏或剪枝，仅需 4GB 显存即可运行 70B 大模型。它支持 Llama 3.x、Qwlyogavin·Jupyter·23 天前3.4k`  
    - 语言: `Jupyter`  
-   - 更新时间: `2026-09-19 03:34:32`  
+   - 更新时间: `2026-09-20 03:50:26`  
 
 <!--POPULAR_REPOS_END-->
 ---
