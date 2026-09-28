@@ -30,53 +30,53 @@
 ---
 ## 🔥 HelloGitHub 热门仓库
 <!--POPULAR_REPOS-->
-1. [dashi-ppt-skill](https://hellogithub.com/repository/chuspeeism/dashi-ppt-skill)  
-   - 描述: 让 AI Agent 帮你做 PPT  
-   - 简介: `dashi-ppt-skill—让 AI Agent 帮你做 PPT2这是一个能够生成可编辑 PPT 的技能包，把文档丢给 Agent 即可生成网页版 PPT，支持在浏览器里直接修改文字、换图片、调布局，以及一键导出为可编辑的 Pchuspeeism·JavaScript·1 个月前4.2k`  
-   - 语言: `JavaScript`  
-   - 更新时间: `2026-09-27 04:08:01`  
-
-2. [DeskBox](https://hellogithub.com/repository/Tianyu199509/DeskBox)  
-   - 描述: 让 Windows 桌面井然有序  
-   - 简介: `DeskBox—让 Windows 桌面井然有序10这是一款开源的 Windows 桌面整理工具，为桌面加入具有 Windows 原生质感的文件格子和日常工具。它内置待办、随记、搜索、天气和音乐控制等小组件，支持Tianyu199509·C#·1 个月前7.2k`  
-   - 语言: `C#`  
-   - 更新时间: `2026-09-27 04:08:01`  
-
-3. [book-to-skill](https://hellogithub.com/repository/virgiliojr94/book-to-skill)  
-   - 描述: 把技术书变成智能体技能  
-   - 简介: `book-to-skill—把技术书变成智能体技能4这是一款可以将技术书籍和文档转化成 Agent 技能的工具，让 AI 编程助手按需加载并基于原书内容回答。它会自动生成 SKILL.md、按章节拆分的文件、术语virgiliojr94·Python·1 个月前4.2k`  
+1. [LoongForge](https://hellogithub.com/repository/baidu-baige/LoongForge)  
+   - 描述: 更快地训练大模型和具身模型  
+   - 简介: `LoongForge—更快地训练大模型和具身模型该项目是百度开源的模型训练框架，支持主流的 LLM、VLM、扩散和具身模型。它采用多后端架构，提供开箱即用的配置和脚本，支持预训练、SFT 与 LoRA，适配 baidu-baige·Python·4 小时前137`  
    - 语言: `Python`  
-   - 更新时间: `2026-09-27 04:08:01`  
+   - 更新时间: `2026-09-28 04:09:15`  
 
-4. [Lithe-IDEA](https://hellogithub.com/repository/1lck/Lithe-IDEA)  
-   - 描述: 轻量级的 Java IDE 编程工具  
-   - 简介: `Lithe-IDEA—轻量级的 Java IDE 编程工具8这是一款面向 Java 和 Spring Boot 开发者的轻量级 IDE，运行时内存占用仅 300-400 MB，支持全局搜索、代码跳转、Maven、断点调试1lck·TypeScript·1 个月前4k`  
-   - 语言: `TypeScript`  
-   - 更新时间: `2026-09-27 04:08:01`  
-
-5. [prehistoric-animal-museum](https://hellogithub.com/repository/s010s/prehistoric-animal-museum)  
-   - 描述: 陪孩子在线逛史前动物博物馆  
-   - 简介: `prehistoric-animal-museum—陪孩子在线逛史前动物博物馆2该项目是专为儿童设计的 3D 史前动物博物馆，收录了海陆空 18 种动物，支持旋转缩放、中英双语旁白和设置探险形象等功能。s010s·TypeScript·1 个月前3.2k`  
-   - 语言: `TypeScript`  
-   - 更新时间: `2026-09-27 04:08:01`  
-
-6. [ai-agent-book](https://hellogithub.com/repository/bojieli/ai-agent-book)  
-   - 描述: 《深入理解 AI Agent：设计原理与工程实践》  
-   - 简介: `ai-agent-book—《深入理解 AI Agent：设计原理与工程实践》4这是一本讲解 AI Agent 的开源中文书籍，围绕「Agent = LLM + 上下文 + 工具」展开，共 10 章。内容从原理讲到生产实践，涵盖上下文工程、bojieli·Python·2 个月前9.3k`  
+2. [figures4papers](https://hellogithub.com/repository/ChenLiu-1996/figures4papers)  
+   - 描述: 绘制论文配图的 Python 脚本集合  
+   - 简介: `figures4papers—绘制论文配图的 Python 脚本集合该项目是一套用于制作论文配图的工具，内含 Python 脚本和 AI Skills，支持绘制对比柱状图、构成分解图、趋势图等多种学术图表。ChenLiu-1996·Python·4 小时前65`  
    - 语言: `Python`  
-   - 更新时间: `2026-09-27 04:08:01`  
+   - 更新时间: `2026-09-28 04:09:15`  
 
-7. [ian-xiaohei-illustrations](https://hellogithub.com/repository/helloianneo/ian-xiaohei-illustrations)  
-   - 描述: 为文章生成手绘配图的技能  
-   - 简介: `ian-xiaohei-illustrations—为文章生成手绘配图的技能该项目是用于生成中文文章配图的 Agent 技能，能够提炼文章中的判断、流程、状态和隐喻，画成白底、手绘、有趣和清爽的 16:9 正文配图。helloianneo·Other·1 个月前2.3k`  
-   - 语言: `Other`  
-   - 更新时间: `2026-09-27 04:08:01`  
+3. [threejs-architecture-effects](https://hellogithub.com/repository/lhlGitHub/threejs-architecture-effects)  
+   - 描述: 让 AI 生成逐层搭建的 3D 古建筑  
+   - 简介: `threejs-architecture-effects—让 AI 生成逐层搭建的 3D 古建筑这是一个适用于 Codex、Claude Code 和 Cursor 的 AI 技能，可生成基于 Three.js 的 3D 中式古建网站。建筑会按照砖墙、木构lhlGitHub·TypeScript·4 小时前105`  
+   - 语言: `TypeScript`  
+   - 更新时间: `2026-09-28 04:09:15`  
 
-8. [airllm](https://hellogithub.com/repository/lyogavin/airllm)  
-   - 描述: 仅需 4GB 显存就能跑 70B 大模型  
-   - 简介: `airllm—仅需 4GB 显存就能跑 70B 大模型2这是一个通过分层加载大幅降低推理显存占用的 Python 库，无需量化、蒸馏或剪枝，仅需 4GB 显存即可运行 70B 大模型。它支持 Llama 3.x、Qwlyogavin·Jupyter·1 个月前4k`  
-   - 语言: `Jupyter`  
-   - 更新时间: `2026-09-27 04:08:01`  
+4. [srt-whiteboard-animation](https://hellogithub.com/repository/geeklee/srt-whiteboard-animation)  
+   - 描述: 把字幕变成手绘动画  
+   - 简介: `srt-whiteboard-animation—把字幕变成手绘动画这是一个可将 SRT 字幕转换为白板手绘视频的 AI 技能包。它会解析字幕内容，按叙事顺序拆分场景并生成分镜和线稿，再让画面元素随字幕依次出现，通过笔尖连续勾勒geeklee·Python·4 小时前96`  
+   - 语言: `Python`  
+   - 更新时间: `2026-09-28 04:09:15`  
+
+5. [hey](https://hellogithub.com/repository/rakyll/hey)  
+   - 描述: 小巧的 HTTP 压测工具  
+   - 简介: `hey—小巧的 HTTP 压测工具这是一款用 Go 编写的 Web 压测命令行工具，能够按请求数和并发数向目标地址发送请求，并输出吞吐量、延迟分布和状态码等统计结果，支持按时长压测、HTTP/2rakyll·Go·4 小时前77`  
+   - 语言: `Go`  
+   - 更新时间: `2026-09-28 04:09:15`  
+
+6. [TencentDB-Agent-Memory](https://hellogithub.com/repository/TencentCloud/TencentDB-Agent-Memory)  
+   - 描述: 让多个 AI 智能体共享团队经验  
+   - 简介: `TencentDB-Agent-Memory—让多个 AI 智能体共享团队经验这是一款开源的 AI 智能体团队记忆系统，可将对话、文档和代码整理成可复用的团队记忆，供不同智能体和团队成员共享。它能从对话中提取记忆与技能，将文档和代码转换为TencentCloud·TypeScript·4 小时前73`  
+   - 语言: `TypeScript`  
+   - 更新时间: `2026-09-28 04:09:15`  
+
+7. [handraw-style](https://hellogithub.com/repository/yang0/handraw-style)  
+   - 描述: 手绘风格 AI 生图技能包  
+   - 简介: `handraw-style—手绘风格 AI 生图技能包这是一个可安装到 Codex 的 AI 生图技能包，收录了 278 种手绘风格、120 种排版样式和 30 种经典主题色。选定编号并说明主题，即可生成中英双语生yang0·HTML·4 小时前72`  
+   - 语言: `HTML`  
+   - 更新时间: `2026-09-28 04:09:15`  
+
+8. [bilirec](https://hellogithub.com/repository/bilirec/bilirec)  
+   - 描述: 适用于低配设备的 B 站直播录制工具  
+   - 简介: `bilirec—适用于低配设备的 B 站直播录制工具该项目是专为低配设备优化的 B 站直播录制工具，内存占用极少。它内置 Web 管理界面，支持开播自动录制、自动分段、断流重连和自动转 MP4 等功能。bilirec·Go·4 小时前48`  
+   - 语言: `Go`  
+   - 更新时间: `2026-09-28 04:09:15`  
 
 <!--POPULAR_REPOS_END-->
 ---
