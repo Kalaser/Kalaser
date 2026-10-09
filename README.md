@@ -32,51 +32,51 @@
 <!--POPULAR_REPOS-->
 1. [LoongForge](https://hellogithub.com/repository/baidu-baige/LoongForge)  
    - 描述: 更快地训练大模型和具身模型  
-   - 简介: `LoongForge—更快地训练大模型和具身模型3该项目是百度开源的模型训练框架，支持主流的 LLM、VLM、扩散和具身模型。它采用多后端架构，提供开箱即用的配置和脚本，支持预训练、SFT 与 LoRA，适配 baidu-baige·Python·10 天前1.5k`  
+   - 简介: `LoongForge—更快地训练大模型和具身模型3该项目是百度开源的模型训练框架，支持主流的 LLM、VLM、扩散和具身模型。它采用多后端架构，提供开箱即用的配置和脚本，支持预训练、SFT 与 LoRA，适配 baidu-baige·Python·11 天前1.7k`  
    - 语言: `Python`  
-   - 更新时间: `2026-10-08 04:57:04`  
+   - 更新时间: `2026-10-09 05:00:03`  
 
 2. [handraw-style](https://hellogithub.com/repository/yang0/handraw-style)  
    - 描述: 手绘风格 AI 生图技能包  
-   - 简介: `handraw-style—手绘风格 AI 生图技能包1这是一个可安装到 Codex 的 AI 生图技能包，收录了 278 种手绘风格、120 种排版样式和 30 种经典主题色。选定编号并说明主题，即可生成中英双语生yang0·HTML·10 天前1.5k`  
+   - 简介: `handraw-style—手绘风格 AI 生图技能包1这是一个可安装到 Codex 的 AI 生图技能包，收录了 278 种手绘风格、120 种排版样式和 30 种经典主题色。选定编号并说明主题，即可生成中英双语生yang0·HTML·11 天前1.8k`  
    - 语言: `HTML`  
-   - 更新时间: `2026-10-08 04:57:04`  
+   - 更新时间: `2026-10-09 05:00:03`  
 
 3. [skills-manager](https://hellogithub.com/repository/xingkongliang/skills-manager)  
    - 描述: 统一管理 AI 技能包的工具  
-   - 简介: `skills-manager—统一管理 AI 技能包的工具1这是一款跨平台的 AI 智能体技能管理工具，可将散落在不同工具中的技能集中存入本地仓库，并一键同步到 Claude Code、Codex、Cursor 等工具。xingkongliang·Rust·10 天前1.1k`  
+   - 简介: `skills-manager—统一管理 AI 技能包的工具1这是一款跨平台的 AI 智能体技能管理工具，可将散落在不同工具中的技能集中存入本地仓库，并一键同步到 Claude Code、Codex、Cursor 等工具。xingkongliang·Rust·11 天前1.3k`  
    - 语言: `Rust`  
-   - 更新时间: `2026-10-08 04:57:04`  
+   - 更新时间: `2026-10-09 05:00:03`  
 
 4. [srt-whiteboard-animation](https://hellogithub.com/repository/geeklee/srt-whiteboard-animation)  
    - 描述: 把字幕变成手绘动画  
-   - 简介: `srt-whiteboard-animation—把字幕变成手绘动画这是一个可将 SRT 字幕转换为白板手绘视频的 AI 技能包。它会解析字幕内容，按叙事顺序拆分场景并生成分镜和线稿，再让画面元素随字幕依次出现，通过笔尖连续勾勒geeklee·Python·10 天前859`  
+   - 简介: `srt-whiteboard-animation—把字幕变成手绘动画这是一个可将 SRT 字幕转换为白板手绘视频的 AI 技能包。它会解析字幕内容，按叙事顺序拆分场景并生成分镜和线稿，再让画面元素随字幕依次出现，通过笔尖连续勾勒geeklee·Python·11 天前1k`  
    - 语言: `Python`  
-   - 更新时间: `2026-10-08 04:57:04`  
+   - 更新时间: `2026-10-09 05:00:03`  
 
 5. [figures4papers](https://hellogithub.com/repository/ChenLiu-1996/figures4papers)  
    - 描述: 绘制论文配图的 Python 脚本集合  
-   - 简介: `figures4papers—绘制论文配图的 Python 脚本集合该项目是一套用于制作论文配图的工具，内含 Python 脚本和 AI Skills，支持绘制对比柱状图、构成分解图、趋势图等多种学术图表。ChenLiu-1996·Python·10 天前787`  
+   - 简介: `figures4papers—绘制论文配图的 Python 脚本集合该项目是一套用于制作论文配图的工具，内含 Python 脚本和 AI Skills，支持绘制对比柱状图、构成分解图、趋势图等多种学术图表。ChenLiu-1996·Python·11 天前865`  
    - 语言: `Python`  
-   - 更新时间: `2026-10-08 04:57:04`  
+   - 更新时间: `2026-10-09 05:00:03`  
 
 6. [edgeever](https://hellogithub.com/repository/tianma-if/edgeever)  
    - 描述: AI 原生的个人笔记应用  
-   - 简介: `edgeever—AI 原生的个人笔记应用这是一款开源的笔记与知识库应用，采用印象笔记经典的三栏布局，可零成本部署在 Cloudflare 上。它提供 REST API、MCP 和 CLI 接口，适配 tianma-if·TypeScript·10 天前1.2k`  
+   - 简介: `edgeever—AI 原生的个人笔记应用这是一款开源的笔记与知识库应用，采用印象笔记经典的三栏布局，可零成本部署在 Cloudflare 上。它提供 REST API、MCP 和 CLI 接口，适配 tianma-if·TypeScript·11 天前1.4k`  
    - 语言: `TypeScript`  
-   - 更新时间: `2026-10-08 04:57:04`  
+   - 更新时间: `2026-10-09 05:00:03`  
 
-7. [iPhoneMirror](https://hellogithub.com/repository/RayrenSX/iPhoneMirror)  
+7. [PMail](https://hellogithub.com/repository/Jinnrry/PMail)  
+   - 描述: 一分钟搭建个人域名邮箱  
+   - 简介: `PMail—一分钟搭建个人域名邮箱该项目是用 Go 编写的个人邮件服务器，仅需一台服务器和域名，就能部署自己的域名邮箱。它开箱即用、体积小、占用资源少，内置邮件收发服务和 Web 管理界面，支持Jinnrry·Go·11 天前647`  
+   - 语言: `Go`  
+   - 更新时间: `2026-10-09 05:00:03`  
+
+8. [iPhoneMirror](https://hellogithub.com/repository/RayrenSX/iPhoneMirror)  
    - 描述: Windows 上的 iPhone 投屏工具  
-   - 简介: `iPhoneMirror—Windows 上的 iPhone 投屏工具这是一款 Windows 本地投屏工具，可通过 USB 或 AirPlay 传输 iPhone/iPad 画面和声音，支持多设备、独立窗口、截图、OBS、蓝牙鼠RayrenSX·C#·10 天前529`  
+   - 简介: `iPhoneMirror—Windows 上的 iPhone 投屏工具这是一款 Windows 本地投屏工具，可通过 USB 或 AirPlay 传输 iPhone/iPad 画面和声音，支持多设备、独立窗口、截图、OBS、蓝牙鼠RayrenSX·C#·11 天前617`  
    - 语言: `C#`  
-   - 更新时间: `2026-10-08 04:57:04`  
-
-8. [openmouse](https://hellogithub.com/repository/OpenMouse-Project/openmouse)  
-   - 描述: 免装驱动的网页版游戏鼠标设置工具  
-   - 简介: `openmouse—免装驱动的网页版游戏鼠标设置工具这是一款基于浏览器的游戏鼠标控制面板，连接鼠标后即可查看设备信息，调整 DPI、回报率等设置，不用安装驱动软件。它通过 WebHID 与鼠标通信，支持罗技、雷蛇OpenMouse-Project·TypeScript·10 天前676`  
-   - 语言: `TypeScript`  
-   - 更新时间: `2026-10-08 04:57:04`  
+   - 更新时间: `2026-10-09 05:00:03`  
 
 <!--POPULAR_REPOS_END-->
 ---
