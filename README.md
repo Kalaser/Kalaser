@@ -32,51 +32,51 @@
 <!--POPULAR_REPOS-->
 1. [LoongForge](https://hellogithub.com/repository/baidu-baige/LoongForge)  
    - 描述: 更快地训练大模型和具身模型  
-   - 简介: `LoongForge—更快地训练大模型和具身模型3该项目是百度开源的模型训练框架，支持主流的 LLM、VLM、扩散和具身模型。它采用多后端架构，提供开箱即用的配置和脚本，支持预训练、SFT 与 LoRA，适配 baidu-baige·Python·11 天前1.7k`  
+   - 简介: `LoongForge—更快地训练大模型和具身模型3该项目是百度开源的模型训练框架，支持主流的 LLM、VLM、扩散和具身模型。它采用多后端架构，提供开箱即用的配置和脚本，支持预训练、SFT 与 LoRA，适配 baidu-baige·Python·12 天前1.9k`  
    - 语言: `Python`  
-   - 更新时间: `2026-10-09 05:00:03`  
+   - 更新时间: `2026-10-10 04:45:39`  
 
 2. [handraw-style](https://hellogithub.com/repository/yang0/handraw-style)  
    - 描述: 手绘风格 AI 生图技能包  
-   - 简介: `handraw-style—手绘风格 AI 生图技能包1这是一个可安装到 Codex 的 AI 生图技能包，收录了 278 种手绘风格、120 种排版样式和 30 种经典主题色。选定编号并说明主题，即可生成中英双语生yang0·HTML·11 天前1.8k`  
+   - 简介: `handraw-style—手绘风格 AI 生图技能包1这是一个可安装到 Codex 的 AI 生图技能包，收录了 278 种手绘风格、120 种排版样式和 30 种经典主题色。选定编号并说明主题，即可生成中英双语生yang0·HTML·12 天前2.1k`  
    - 语言: `HTML`  
-   - 更新时间: `2026-10-09 05:00:03`  
+   - 更新时间: `2026-10-10 04:45:39`  
 
 3. [skills-manager](https://hellogithub.com/repository/xingkongliang/skills-manager)  
    - 描述: 统一管理 AI 技能包的工具  
-   - 简介: `skills-manager—统一管理 AI 技能包的工具1这是一款跨平台的 AI 智能体技能管理工具，可将散落在不同工具中的技能集中存入本地仓库，并一键同步到 Claude Code、Codex、Cursor 等工具。xingkongliang·Rust·11 天前1.3k`  
+   - 简介: `skills-manager—统一管理 AI 技能包的工具1这是一款跨平台的 AI 智能体技能管理工具，可将散落在不同工具中的技能集中存入本地仓库，并一键同步到 Claude Code、Codex、Cursor 等工具。xingkongliang·Rust·12 天前1.5k`  
    - 语言: `Rust`  
-   - 更新时间: `2026-10-09 05:00:03`  
+   - 更新时间: `2026-10-10 04:45:39`  
 
 4. [srt-whiteboard-animation](https://hellogithub.com/repository/geeklee/srt-whiteboard-animation)  
    - 描述: 把字幕变成手绘动画  
-   - 简介: `srt-whiteboard-animation—把字幕变成手绘动画这是一个可将 SRT 字幕转换为白板手绘视频的 AI 技能包。它会解析字幕内容，按叙事顺序拆分场景并生成分镜和线稿，再让画面元素随字幕依次出现，通过笔尖连续勾勒geeklee·Python·11 天前1k`  
+   - 简介: `srt-whiteboard-animation—把字幕变成手绘动画这是一个可将 SRT 字幕转换为白板手绘视频的 AI 技能包。它会解析字幕内容，按叙事顺序拆分场景并生成分镜和线稿，再让画面元素随字幕依次出现，通过笔尖连续勾勒geeklee·Python·12 天前1.1k`  
    - 语言: `Python`  
-   - 更新时间: `2026-10-09 05:00:03`  
+   - 更新时间: `2026-10-10 04:45:39`  
 
-5. [figures4papers](https://hellogithub.com/repository/ChenLiu-1996/figures4papers)  
-   - 描述: 绘制论文配图的 Python 脚本集合  
-   - 简介: `figures4papers—绘制论文配图的 Python 脚本集合该项目是一套用于制作论文配图的工具，内含 Python 脚本和 AI Skills，支持绘制对比柱状图、构成分解图、趋势图等多种学术图表。ChenLiu-1996·Python·11 天前865`  
-   - 语言: `Python`  
-   - 更新时间: `2026-10-09 05:00:03`  
-
-6. [edgeever](https://hellogithub.com/repository/tianma-if/edgeever)  
+5. [edgeever](https://hellogithub.com/repository/tianma-if/edgeever)  
    - 描述: AI 原生的个人笔记应用  
-   - 简介: `edgeever—AI 原生的个人笔记应用这是一款开源的笔记与知识库应用，采用印象笔记经典的三栏布局，可零成本部署在 Cloudflare 上。它提供 REST API、MCP 和 CLI 接口，适配 tianma-if·TypeScript·11 天前1.4k`  
+   - 简介: `edgeever—AI 原生的个人笔记应用这是一款开源的笔记与知识库应用，采用印象笔记经典的三栏布局，可零成本部署在 Cloudflare 上。它提供 REST API、MCP 和 CLI 接口，适配 tianma-if·TypeScript·12 天前1.6k`  
    - 语言: `TypeScript`  
-   - 更新时间: `2026-10-09 05:00:03`  
+   - 更新时间: `2026-10-10 04:45:39`  
 
-7. [PMail](https://hellogithub.com/repository/Jinnrry/PMail)  
+6. [dashi-ppt-skill](https://hellogithub.com/repository/chuspeeism/dashi-ppt-skill)  
+   - 描述: 让 AI Agent 帮你做 PPT  
+   - 简介: `dashi-ppt-skill—让 AI Agent 帮你做 PPT2这是一个能够生成可编辑 PPT 的技能包，把文档丢给 Agent 即可生成网页版 PPT，支持在浏览器里直接修改文字、换图片、调布局，以及一键导出为可编辑的 Pchuspeeism·JavaScript·1 个月前5.2k`  
+   - 语言: `JavaScript`  
+   - 更新时间: `2026-10-10 04:45:39`  
+
+7. [figures4papers](https://hellogithub.com/repository/ChenLiu-1996/figures4papers)  
+   - 描述: 绘制论文配图的 Python 脚本集合  
+   - 简介: `figures4papers—绘制论文配图的 Python 脚本集合该项目是一套用于制作论文配图的工具，内含 Python 脚本和 AI Skills，支持绘制对比柱状图、构成分解图、趋势图等多种学术图表。ChenLiu-1996·Python·12 天前932`  
+   - 语言: `Python`  
+   - 更新时间: `2026-10-10 04:45:39`  
+
+8. [PMail](https://hellogithub.com/repository/Jinnrry/PMail)  
    - 描述: 一分钟搭建个人域名邮箱  
-   - 简介: `PMail—一分钟搭建个人域名邮箱该项目是用 Go 编写的个人邮件服务器，仅需一台服务器和域名，就能部署自己的域名邮箱。它开箱即用、体积小、占用资源少，内置邮件收发服务和 Web 管理界面，支持Jinnrry·Go·11 天前647`  
+   - 简介: `PMail—一分钟搭建个人域名邮箱该项目是用 Go 编写的个人邮件服务器，仅需一台服务器和域名，就能部署自己的域名邮箱。它开箱即用、体积小、占用资源少，内置邮件收发服务和 Web 管理界面，支持Jinnrry·Go·12 天前765`  
    - 语言: `Go`  
-   - 更新时间: `2026-10-09 05:00:03`  
-
-8. [iPhoneMirror](https://hellogithub.com/repository/RayrenSX/iPhoneMirror)  
-   - 描述: Windows 上的 iPhone 投屏工具  
-   - 简介: `iPhoneMirror—Windows 上的 iPhone 投屏工具这是一款 Windows 本地投屏工具，可通过 USB 或 AirPlay 传输 iPhone/iPad 画面和声音，支持多设备、独立窗口、截图、OBS、蓝牙鼠RayrenSX·C#·11 天前617`  
-   - 语言: `C#`  
-   - 更新时间: `2026-10-09 05:00:03`  
+   - 更新时间: `2026-10-10 04:45:39`  
 
 <!--POPULAR_REPOS_END-->
 ---
