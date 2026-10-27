@@ -32,51 +32,51 @@
 <!--POPULAR_REPOS-->
 1. [LoongForge](https://hellogithub.com/repository/baidu-baige/LoongForge)  
    - 描述: 更快地训练大模型和具身模型  
-   - 简介: `LoongForge—更快地训练大模型和具身模型5该项目是百度开源的模型训练框架，支持主流的 LLM、VLM、扩散和具身模型。它采用多后端架构，提供开箱即用的配置和脚本，支持预训练、SFT 与 LoRA，适配 baidu-baige·Python·1 个月前3.9k`  
+   - 简介: `LoongForge—更快地训练大模型和具身模型5该项目是百度开源的模型训练框架，支持主流的 LLM、VLM、扩散和具身模型。它采用多后端架构，提供开箱即用的配置和脚本，支持预训练、SFT 与 LoRA，适配 baidu-baige·Python·1 个月前4.1k`  
    - 语言: `Python`  
-   - 更新时间: `2026-10-26 03:38:21`  
+   - 更新时间: `2026-10-27 04:02:57`  
 
-2. [linux-basics-for-hackers-notes](https://hellogithub.com/repository/ahegazy0/linux-basics-for-hackers-notes)  
+2. [cleanyourtv](https://hellogithub.com/repository/Gathin23/cleanyourtv)  
+   - 描述: 让安卓电视清爽如 Apple TV  
+   - 简介: `cleanyourtv—让安卓电视清爽如 Apple TV1该项目可以自动清理 Android 电视上的广告与预装软件，并把主屏幕换成 Apple TV 风格的启动器。只需开启电视的调试模式，再把提示词交给 ClaudeGathin23·Python·1 天前477`  
+   - 语言: `Python`  
+   - 更新时间: `2026-10-27 04:02:57`  
+
+3. [thinkrail](https://hellogithub.com/repository/JetBrains/thinkrail)  
+   - 描述: JetBrains 开源的轻量级 AI 编程 IDE  
+   - 简介: `thinkrail—JetBrains 开源的轻量级 AI 编程 IDE这是一款围绕 pi 编程智能体打造的 AI IDE，提供 Monaco 编辑器、文件树、终端和代码对比视图，并为每项任务创建独立的 Git worktree 工JetBrains·TypeScript·12 小时前136`  
+   - 语言: `TypeScript`  
+   - 更新时间: `2026-10-27 04:02:57`  
+
+4. [linux-basics-for-hackers-notes](https://hellogithub.com/repository/ahegazy0/linux-basics-for-hackers-notes)  
    - 描述: 《Linux Basics for Hackers》学习笔记  
-   - 简介: `linux-basics-for-hackers-notes—《Linux Basics for Hackers》学习笔记该项目是根据《Linux Basics for Hackers》一书整理的学习笔记，面向网络安全入门者，共 18 个模块，涵盖终端基础、文本处理、网络管理、权限ahegazy0·Other·15 小时前123`  
+   - 简介: `linux-basics-for-hackers-notes—《Linux Basics for Hackers》学习笔记该项目是根据《Linux Basics for Hackers》一书整理的学习笔记，面向网络安全入门者，共 18 个模块，涵盖终端基础、文本处理、网络管理、权限ahegazy0·Other·2 天前277`  
    - 语言: `Other`  
-   - 更新时间: `2026-10-26 03:38:21`  
+   - 更新时间: `2026-10-27 04:02:57`  
 
-3. [Lithe-IDEA](https://hellogithub.com/repository/1lck/Lithe-IDEA)  
+5. [Lithe-IDEA](https://hellogithub.com/repository/1lck/Lithe-IDEA)  
    - 描述: 轻量级的 Java IDE 编程工具  
-   - 简介: `Lithe-IDEA—轻量级的 Java IDE 编程工具9这是一款面向 Java 和 Spring Boot 开发者的轻量级 IDE，运行时内存占用仅 300-400 MB，支持全局搜索、代码跳转、Maven、断点调试1lck·Swift·13 天前6.5k`  
+   - 简介: `Lithe-IDEA—轻量级的 Java IDE 编程工具9这是一款面向 Java 和 Spring Boot 开发者的轻量级 IDE，运行时内存占用仅 300-400 MB，支持全局搜索、代码跳转、Maven、断点调试1lck·Swift·14 天前6.7k`  
    - 语言: `Swift`  
-   - 更新时间: `2026-10-26 03:38:21`  
+   - 更新时间: `2026-10-27 04:02:57`  
 
-4. [handraw-style](https://hellogithub.com/repository/yang0/handraw-style)  
+6. [handraw-style](https://hellogithub.com/repository/yang0/handraw-style)  
    - 描述: 手绘风格 AI 生图技能包  
-   - 简介: `handraw-style—手绘风格 AI 生图技能包1这是一个可安装到 Codex 的 AI 生图技能包，收录了 278 种手绘风格、120 种排版样式和 30 种经典主题色。选定编号并说明主题，即可生成中英双语生yang0·HTML·1 个月前5k`  
+   - 简介: `handraw-style—手绘风格 AI 生图技能包1这是一个可安装到 Codex 的 AI 生图技能包，收录了 278 种手绘风格、120 种排版样式和 30 种经典主题色。选定编号并说明主题，即可生成中英双语生yang0·HTML·1 个月前5.2k`  
    - 语言: `HTML`  
-   - 更新时间: `2026-10-26 03:38:21`  
+   - 更新时间: `2026-10-27 04:02:57`  
 
-5. [skills-manager](https://hellogithub.com/repository/xingkongliang/skills-manager)  
+7. [skills-manager](https://hellogithub.com/repository/xingkongliang/skills-manager)  
    - 描述: 统一管理 AI 技能包的工具  
-   - 简介: `skills-manager—统一管理 AI 技能包的工具1这是一款跨平台的 AI 智能体技能管理工具，可将散落在不同工具中的技能集中存入本地仓库，并一键同步到 Claude Code、Codex、Cursor 等工具。xingkongliang·Rust·1 个月前3.6k`  
+   - 简介: `skills-manager—统一管理 AI 技能包的工具1这是一款跨平台的 AI 智能体技能管理工具，可将散落在不同工具中的技能集中存入本地仓库，并一键同步到 Claude Code、Codex、Cursor 等工具。xingkongliang·Rust·1 个月前3.7k`  
    - 语言: `Rust`  
-   - 更新时间: `2026-10-26 03:38:21`  
+   - 更新时间: `2026-10-27 04:02:57`  
 
-6. [dashi-ppt-skill](https://hellogithub.com/repository/chuspeeism/dashi-ppt-skill)  
+8. [dashi-ppt-skill](https://hellogithub.com/repository/chuspeeism/dashi-ppt-skill)  
    - 描述: 让 AI Agent 帮你做 PPT  
-   - 简介: `dashi-ppt-skill—让 AI Agent 帮你做 PPT3这是一个能够生成可编辑 PPT 的技能包，把文档丢给 Agent 即可生成网页版 PPT，支持在浏览器里直接修改文字、换图片、调布局，以及一键导出为可编辑的 Pchuspeeism·JavaScript·2 个月前7.5k`  
+   - 简介: `dashi-ppt-skill—让 AI Agent 帮你做 PPT3这是一个能够生成可编辑 PPT 的技能包，把文档丢给 Agent 即可生成网页版 PPT，支持在浏览器里直接修改文字、换图片、调布局，以及一键导出为可编辑的 Pchuspeeism·JavaScript·2 个月前7.6k`  
    - 语言: `JavaScript`  
-   - 更新时间: `2026-10-26 03:38:21`  
-
-7. [srt-whiteboard-animation](https://hellogithub.com/repository/geeklee/srt-whiteboard-animation)  
-   - 描述: 把字幕变成手绘动画  
-   - 简介: `srt-whiteboard-animation—把字幕变成手绘动画这是一个可将 SRT 字幕转换为白板手绘视频的 AI 技能包。它会解析字幕内容，按叙事顺序拆分场景并生成分镜和线稿，再让画面元素随字幕依次出现，通过笔尖连续勾勒geeklee·Python·1 个月前2.5k`  
-   - 语言: `Python`  
-   - 更新时间: `2026-10-26 03:38:21`  
-
-8. [DeskBox](https://hellogithub.com/repository/Tianyu199509/DeskBox)  
-   - 描述: 让 Windows 桌面井然有序  
-   - 简介: `DeskBox—让 Windows 桌面井然有序13这是一款开源的 Windows 桌面整理工具，为桌面加入具有 Windows 原生质感的文件格子和日常工具。它内置待办、随记、搜索、天气和音乐控制等小组件，支持Tianyu199509·C#·2 个月前1.1w`  
-   - 语言: `C#`  
-   - 更新时间: `2026-10-26 03:38:21`  
+   - 更新时间: `2026-10-27 04:02:57`  
 
 <!--POPULAR_REPOS_END-->
 ---
