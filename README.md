@@ -32,51 +32,51 @@
 <!--POPULAR_REPOS-->
 1. [LoongForge](https://hellogithub.com/repository/baidu-baige/LoongForge)  
    - 描述: 更快地训练大模型和具身模型  
-   - 简介: `LoongForge—更快地训练大模型和具身模型5该项目是百度开源的模型训练框架，支持主流的 LLM、VLM、扩散和具身模型。它采用多后端架构，提供开箱即用的配置和脚本，支持预训练、SFT 与 LoRA，适配 baidu-baige·Python·1 个月前4.1k`  
+   - 简介: `LoongForge—更快地训练大模型和具身模型5该项目是百度开源的模型训练框架，支持主流的 LLM、VLM、扩散和具身模型。它采用多后端架构，提供开箱即用的配置和脚本，支持预训练、SFT 与 LoRA，适配 baidu-baige·Python·1 个月前4.3k`  
    - 语言: `Python`  
-   - 更新时间: `2026-10-27 04:02:57`  
+   - 更新时间: `2026-10-28 04:28:37`  
 
-2. [cleanyourtv](https://hellogithub.com/repository/Gathin23/cleanyourtv)  
-   - 描述: 让安卓电视清爽如 Apple TV  
-   - 简介: `cleanyourtv—让安卓电视清爽如 Apple TV1该项目可以自动清理 Android 电视上的广告与预装软件，并把主屏幕换成 Apple TV 风格的启动器。只需开启电视的调试模式，再把提示词交给 ClaudeGathin23·Python·1 天前477`  
-   - 语言: `Python`  
-   - 更新时间: `2026-10-27 04:02:57`  
-
-3. [thinkrail](https://hellogithub.com/repository/JetBrains/thinkrail)  
-   - 描述: JetBrains 开源的轻量级 AI 编程 IDE  
-   - 简介: `thinkrail—JetBrains 开源的轻量级 AI 编程 IDE这是一款围绕 pi 编程智能体打造的 AI IDE，提供 Monaco 编辑器、文件树、终端和代码对比视图，并为每项任务创建独立的 Git worktree 工JetBrains·TypeScript·12 小时前136`  
-   - 语言: `TypeScript`  
-   - 更新时间: `2026-10-27 04:02:57`  
-
-4. [linux-basics-for-hackers-notes](https://hellogithub.com/repository/ahegazy0/linux-basics-for-hackers-notes)  
-   - 描述: 《Linux Basics for Hackers》学习笔记  
-   - 简介: `linux-basics-for-hackers-notes—《Linux Basics for Hackers》学习笔记该项目是根据《Linux Basics for Hackers》一书整理的学习笔记，面向网络安全入门者，共 18 个模块，涵盖终端基础、文本处理、网络管理、权限ahegazy0·Other·2 天前277`  
-   - 语言: `Other`  
-   - 更新时间: `2026-10-27 04:02:57`  
-
-5. [Lithe-IDEA](https://hellogithub.com/repository/1lck/Lithe-IDEA)  
-   - 描述: 轻量级的 Java IDE 编程工具  
-   - 简介: `Lithe-IDEA—轻量级的 Java IDE 编程工具9这是一款面向 Java 和 Spring Boot 开发者的轻量级 IDE，运行时内存占用仅 300-400 MB，支持全局搜索、代码跳转、Maven、断点调试1lck·Swift·14 天前6.7k`  
-   - 语言: `Swift`  
-   - 更新时间: `2026-10-27 04:02:57`  
-
-6. [handraw-style](https://hellogithub.com/repository/yang0/handraw-style)  
-   - 描述: 手绘风格 AI 生图技能包  
-   - 简介: `handraw-style—手绘风格 AI 生图技能包1这是一个可安装到 Codex 的 AI 生图技能包，收录了 278 种手绘风格、120 种排版样式和 30 种经典主题色。选定编号并说明主题，即可生成中英双语生yang0·HTML·1 个月前5.2k`  
-   - 语言: `HTML`  
-   - 更新时间: `2026-10-27 04:02:57`  
-
-7. [skills-manager](https://hellogithub.com/repository/xingkongliang/skills-manager)  
-   - 描述: 统一管理 AI 技能包的工具  
-   - 简介: `skills-manager—统一管理 AI 技能包的工具1这是一款跨平台的 AI 智能体技能管理工具，可将散落在不同工具中的技能集中存入本地仓库，并一键同步到 Claude Code、Codex、Cursor 等工具。xingkongliang·Rust·1 个月前3.7k`  
-   - 语言: `Rust`  
-   - 更新时间: `2026-10-27 04:02:57`  
-
-8. [dashi-ppt-skill](https://hellogithub.com/repository/chuspeeism/dashi-ppt-skill)  
-   - 描述: 让 AI Agent 帮你做 PPT  
-   - 简介: `dashi-ppt-skill—让 AI Agent 帮你做 PPT3这是一个能够生成可编辑 PPT 的技能包，把文档丢给 Agent 即可生成网页版 PPT，支持在浏览器里直接修改文字、换图片、调布局，以及一键导出为可编辑的 Pchuspeeism·JavaScript·2 个月前7.6k`  
+2. [openGym](https://hellogithub.com/repository/DuarteSantos8/openGym)  
+   - 描述: 数据由自己掌控的健身记录应用  
+   - 简介: `openGym—数据由自己掌控的健身记录应用这是一款可自托管的健身和体重记录应用，没有订阅、广告和遥测，用 Docker 一行命令即可部署。它内置 5000 多个带动画演示的动作，支持按星期安排训练计划、DuarteSantos8·JavaScript·4 小时前91`  
    - 语言: `JavaScript`  
-   - 更新时间: `2026-10-27 04:02:57`  
+   - 更新时间: `2026-10-28 04:28:37`  
+
+3. [colibri](https://hellogithub.com/repository/JustVugg/colibri)  
+   - 描述: 无需显卡运行千亿参数模型  
+   - 简介: `colibri—无需显卡运行千亿参数模型这是一个用纯 C 编写的混合专家模型推理引擎，零依赖、不需要 GPU。它只把模型每次都要用到的部分留在内存，其余的专家权重在需要时再从硬盘读取，最低 8GB 内JustVugg·C·4 小时前134`  
+   - 语言: `C`  
+   - 更新时间: `2026-10-28 04:28:37`  
+
+4. [everything](https://hellogithub.com/repository/HeyPuter/everything)  
+   - 描述: 从零打造商业软件的开源替代品  
+   - 简介: `everything—从零打造商业软件的开源替代品这是由 Puter 团队发起的开源项目，目标是从零开始重新打造商业软件的免费开源替代品。目前已有 50 多款应用，包括 Excel、PPT、PS、AutoCADHeyPuter·JavaScript·4 小时前129`  
+   - 语言: `JavaScript`  
+   - 更新时间: `2026-10-28 04:28:37`  
+
+5. [diagram-design](https://hellogithub.com/repository/cathrynlavery/diagram-design)  
+   - 描述: 让 AI 画出有设计感的图  
+   - 简介: `diagram-design—让 AI 画出有设计感的图这是一个为 AI 编程助手打造的图表设计技能，能生成可直接在浏览器中打开的 HTML+SVG 文件。它支持架构图、流程图、时序图、甘特图、桑基图等 45 种图表cathrynlavery·HTML·4 小时前90`  
+   - 语言: `HTML`  
+   - 更新时间: `2026-10-28 04:28:37`  
+
+6. [GeoLibre](https://hellogithub.com/repository/opengeos/GeoLibre)  
+   - 描述: 在浏览器里就能用的开源 GIS 平台  
+   - 简介: `GeoLibre—在浏览器里就能用的开源 GIS 平台该项目是用 TypeScript 开发的地理信息系统，可用于可视化、浏览和分析地理空间数据，数据保留在本地。它内置 1000 多个通过 WebAssembly opengeos·TypeScript·4 小时前65`  
+   - 语言: `TypeScript`  
+   - 更新时间: `2026-10-28 04:28:37`  
+
+7. [magpie](https://hellogithub.com/repository/yetone/magpie)  
+   - 描述: 一键切换 AI 编程助手的模型  
+   - 简介: `magpie—一键切换 AI 编程助手的模型这是一款用 Go 开发的 AI 编程助手模型管理工具，让 Claude Code 用上 Kimi、Codex 用上 DeepSeek。它通过本地网关转换 Opeyetone·Go·4 小时前60`  
+   - 语言: `Go`  
+   - 更新时间: `2026-10-28 04:28:37`  
+
+8. [cleanyourtv](https://hellogithub.com/repository/Gathin23/cleanyourtv)  
+   - 描述: 让安卓电视清爽如 Apple TV  
+   - 简介: `cleanyourtv—让安卓电视清爽如 Apple TV2该项目可以自动清理 Android 电视上的广告与预装软件，并把主屏幕换成 Apple TV 风格的启动器。只需开启电视的调试模式，再把提示词交给 ClaudeGathin23·Python·2 天前843`  
+   - 语言: `Python`  
+   - 更新时间: `2026-10-28 04:28:37`  
 
 <!--POPULAR_REPOS_END-->
 ---
