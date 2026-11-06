@@ -52,8 +52,8 @@ I work on embedded firmware and the tooling around it.
 ## GitHub Stats
 
 <p>
-  <img height="165" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=Kalaser&show_icons=true&hide_title=true&hide_border=true&theme=tokyonight" />
-  <img height="165" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kalaser&layout=compact&hide_title=true&hide_border=true&theme=tokyonight" />
+  <img height="200" alt="GitHub stats" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Kalaser&theme=tokyonight" />
+  <img height="200" alt="Top languages by repository" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Kalaser&theme=tokyonight" />
 </p>
 
 ## Contributions
