@@ -1,74 +1,162 @@
-"""
-update_readme.py
+#!/usr/bin/env python3
+"""Refresh the GitHub profile README.
 
-作者: Kalaser
-描述: 主页获取每日一言，更新主页
-日期: 2025-08-17
+Fetches the public repositories owned by USERNAME from the GitHub REST API,
+filters out forks and archived repositories, then rewrites the block between
+PROJECTS_START and PROJECTS_END. Standard library only.
 """
 
-import datetime
-import re
-import urllib.request
+from __future__ import annotations
+
 import json
+import os
+import re
+import sys
+import urllib.error
+import urllib.request
+from datetime import datetime, timezone
+from pathlib import Path
 
-README_FILE = "README.md"
+USERNAME = "Kalaser"
+README = Path(__file__).resolve().parent / "README.md"
+API_URL = f"https://api.github.com/users/{USERNAME}/repos?per_page=100&sort=pushed"
 
-# 获取每日一言
-def get_quote():
+MAX_PROJECTS = 12
+INCLUDE_FORKS = False
+INCLUDE_ARCHIVED = False
+
+# Display order. Repositories not listed here are appended alphabetically.
+FEATURED_ORDER = [
+    "Uikit-Framework",
+    "Sunny_OS",
+    "cpp-navigator",
+    "Mythreadpool",
+    "Kalaser_agent",
+    "kalaser_docmd",
+    "Folder-Encryption-Tool",
+    "C-Cpp--learning",
+    "OASIS",
+]
+
+# English descriptions for repositories whose GitHub description is missing
+# or written in another language. Repositories not listed here use the API
+# description.
+DESCRIPTIONS = {
+    "Uikit-Framework": "UIKit-style widget and API layer over LVGL for embedded GUI development, with an optional C++ RAII wrapper.",
+    "Sunny_OS": "Lightweight LVGL-based UI framework with a minimal shell, page router, and publish-subscribe data bus.",
+    "cpp-navigator": "VS Code extension for fast C/C++ symbol indexing, navigation, and call-hierarchy exploration.",
+    "Mythreadpool": "Thread pool implemented from scratch with queues, mutexes, read-write locks, and condition variables.",
+    "Kalaser_agent": "Experimental TypeScript agent runtime and developer tooling.",
+    "kalaser_docmd": "Engineering notes and technical guides, published as a static documentation site.",
+    "Folder-Encryption-Tool": "Desktop GUI for encrypting and decrypting files inside a folder.",
+    "C-Cpp--learning": "Personal C/C++ learning notes, exercises, and small projects.",
+    "OASIS": "Personal sandbox for experiments and prototypes.",
+}
+
+# Optional label overrides when the GitHub language is missing or inaccurate.
+STACK_OVERRIDES = {
+    "kalaser_docmd": "Docs",
+    "OASIS": "Sandbox",
+}
+
+PROJECTS_START = "<!-- PROJECTS:START -->"
+PROJECTS_END = "<!-- PROJECTS:END -->"
+UPDATED_START = "<!-- LAST_UPDATED:START -->"
+UPDATED_END = "<!-- LAST_UPDATED:END -->"
+
+
+def fetch_repos() -> list[dict]:
+    headers = {
+        "User-Agent": f"{USERNAME}-profile-readme",
+        "Accept": "application/vnd.github+json",
+    }
+    token = os.environ.get("GITHUB_TOKEN")
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
+
+    repos: list[dict] = []
+    page = 1
+    while True:
+        request = urllib.request.Request(f"{API_URL}&page={page}", headers=headers)
+        with urllib.request.urlopen(request, timeout=30) as response:
+            batch = json.load(response)
+
+        repos.extend(batch)
+        if len(batch) < 100 or page >= 10:
+            break
+        page += 1
+
+    return repos
+
+
+def select_repos(repos: list[dict]) -> list[dict]:
+    selected = []
+    for repo in repos:
+        if repo["name"].lower() == USERNAME.lower():
+            continue
+        if not INCLUDE_FORKS and repo.get("fork"):
+            continue
+        if not INCLUDE_ARCHIVED and repo.get("archived"):
+            continue
+        selected.append(repo)
+
+    rank = {name: index for index, name in enumerate(FEATURED_ORDER)}
+    selected.sort(key=lambda repo: (rank.get(repo["name"], len(rank)), repo["name"].lower()))
+    return selected
+
+
+def clean_text(value: str | None) -> str:
+    text = re.sub(r"\s+", " ", value or "").strip()
+    return text.replace("|", r"\|")
+
+
+def render_projects(repos: list[dict]) -> str:
+    lines = [
+        "| Project | Stack | Description |",
+        "| :--- | :--- | :--- |",
+    ]
+    for repo in repos[:MAX_PROJECTS]:
+        name = repo["name"]
+        description = clean_text(
+            DESCRIPTIONS.get(name) or repo.get("description") or "No description provided."
+        )
+        stack = STACK_OVERRIDES.get(name) or repo.get("language") or "-"
+        lines.append(f"| **[{name}]({repo['html_url']})** | `{stack}` | {description} |")
+    return "\n".join(lines)
+
+
+def replace_block(text: str, start: str, end: str, body: str) -> str:
+    pattern = re.compile(re.escape(start) + r".*?" + re.escape(end), re.DOTALL)
+    if not pattern.search(text):
+        raise SystemExit(f"Markers not found: {start} / {end}")
+    replacement = f"{start}\n{body}\n{end}"
+    return pattern.sub(lambda _match: replacement, text, count=1)
+
+
+def main() -> int:
     try:
-        url = "https://60s.viki.moe/v2/hitokoto/?encoding=json"
-        with urllib.request.urlopen(url, timeout=10) as res:
-            data = json.load(res)
-            return data.get("data", {}).get("hitokoto", "Keep coding, keep growing!")
-    except Exception as e:
-        print(f"Error fetching quote: {e}")
-        return "Stay motivated!"
+        repos = fetch_repos()
+    except (urllib.error.URLError, TimeoutError) as exc:
+        print(f"Failed to fetch repositories: {exc}", file=sys.stderr)
+        return 1
 
-# 获取今日图片并保存
-def get_image():
-    """获取今日图片并保存到当前分支目录"""
-    url = "https://60s.viki.moe/v2/bing?encoding=image"
-    filename = "daily.jpg"  # 保存的文件名
-    
-    try:
-        # 下载图片
-        with urllib.request.urlopen(url, timeout=10) as res:
-            image_url = res.geturl()
-            with urllib.request.urlopen(image_url, timeout=10) as img_res:
-                with open(filename, "wb") as f:
-                    f.write(img_res.read())
-            print(f"✅ 图片已保存到 {filename}")
-        
-        # 自动添加到 git 暂存区（可选）
-        subprocess.run(["git", "add", filename], check=True)
-        subprocess.run(["git", "commit", "-m", "更新每日图片"], check=True)
-        subprocess.run(["git", "push"], check=True)
-        print("✅ 已提交最新图片到本地分支")
-        
-        return os.path.abspath(filename)
+    selected = select_repos(repos)
+    if not selected:
+        print("No repositories matched the filters; README left unchanged.", file=sys.stderr)
+        return 1
 
-    except Exception as e:
-        print(f"❌ 获取或保存图片失败: {e}")
-        return None
+    readme = README.read_text(encoding="utf-8")
+    readme = replace_block(readme, PROJECTS_START, PROJECTS_END, render_projects(selected))
 
-def main():
-    image = get_image()
-    # 读取 README 文件内容
-    with open(README_FILE, "r", encoding="utf-8") as f:
-        content = f.read()
+    timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    readme = replace_block(readme, UPDATED_START, UPDATED_END, timestamp)
 
-    # 获取当前日期和每日一言
-    today = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    quote = get_quote()
-    # image = get_image()
+    with README.open("w", encoding="utf-8", newline="\n") as handle:
+        handle.write(readme)
 
-    # 更新 README 中的日期和一言内容
-    content = re.sub(r"<!--DATE-->.*", f"<!--DATE-->{today}", content)
-    content = re.sub(r"<!--QUOTE-->.*", f"<!--QUOTE-->{quote}", content)
-    content = re.sub(r"<!--IMAGE_URL-->.*", f"<!--IMAGE_URL-->{image}", content)
-    # 将更新后的内容写回 README 文件
-    with open(README_FILE, "w", encoding="utf-8") as f:
-        f.write(content)
+    print(f"Updated {README.name} with {min(len(selected), MAX_PROJECTS)} repositories.")
+    return 0
+
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())

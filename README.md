@@ -1,111 +1,75 @@
-<!-- 动态打字效果 -->
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=48&color=FF6B6B&width=800&lines=Hi+there,+I'm+Kalaser!;Passionate+Developer;Love+Open+Source+%26+Tech&center=true&vCenter=true&font=Fira+Code&gradient=FF6B6B,FFA500,1E90FF&duration=3000)](https://git.io/typing-svg)
+<div align="center">
+
+# Kalaser
+
+**Embedded firmware · C/C++ · Developer tooling**
+
+[![Followers](https://img.shields.io/github/followers/Kalaser?style=flat-square&label=followers&color=555)](https://github.com/Kalaser?tab=followers)
+[![Profile views](https://komarev.com/ghpvc/?username=Kalaser&style=flat-square&color=555)](https://github.com/Kalaser)
+
+</div>
+
+## About
+
+I work on embedded firmware and the tooling around it.
+
+- Firmware for BES/NuttX wearables: factory test flows, transport protocols, and device-side services.
+- C/C++ systems work: thread pools, LVGL-based UI frameworks, and shell tooling.
+- Python automation and VS Code extensions for code search, navigation, and review.
+- Currently exploring AI-assisted development workflows.
+
+## Tech Stack
+
+<p>
+  <img alt="C" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="36" height="36" />
+  <img alt="C++" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="36" height="36" />
+  <img alt="Python" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="36" height="36" />
+  <img alt="TypeScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="36" height="36" />
+  <img alt="Linux" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="36" height="36" />
+  <img alt="Git" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="36" height="36" />
+  <img alt="Docker" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="36" height="36" />
+  <img alt="VS Code" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="36" height="36" />
+</p>
+
+## Projects
+
+<!-- PROJECTS:START -->
+| Project | Stack | Description |
+| :--- | :--- | :--- |
+| **[Uikit-Framework](https://github.com/Kalaser/Uikit-Framework)** | `C` | UIKit-style widget and API layer over LVGL for embedded GUI development, with an optional C++ RAII wrapper. |
+| **[Sunny_OS](https://github.com/Kalaser/Sunny_OS)** | `C` | Lightweight LVGL-based UI framework with a minimal shell, page router, and publish-subscribe data bus. |
+| **[cpp-navigator](https://github.com/Kalaser/cpp-navigator)** | `TypeScript` | VS Code extension for fast C/C++ symbol indexing, navigation, and call-hierarchy exploration. |
+| **[Mythreadpool](https://github.com/Kalaser/Mythreadpool)** | `C` | Thread pool implemented from scratch with queues, mutexes, read-write locks, and condition variables. |
+| **[Kalaser_agent](https://github.com/Kalaser/Kalaser_agent)** | `TypeScript` | Experimental TypeScript agent runtime and developer tooling. |
+| **[kalaser_docmd](https://github.com/Kalaser/kalaser_docmd)** | `Docs` | Engineering notes and technical guides, published as a static documentation site. |
+| **[Folder-Encryption-Tool](https://github.com/Kalaser/Folder-Encryption-Tool)** | `-` | Desktop GUI for encrypting and decrypting files inside a folder. |
+| **[C-Cpp--learning](https://github.com/Kalaser/C-Cpp--learning)** | `C++` | Personal C/C++ learning notes, exercises, and small projects. |
+| **[OASIS](https://github.com/Kalaser/OASIS)** | `Sandbox` | Personal sandbox for experiments and prototypes. |
+<!-- PROJECTS:END -->
+
+[All repositories](https://github.com/Kalaser?tab=repositories)
+
+## GitHub Stats
+
+<p>
+  <img height="165" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=Kalaser&show_icons=true&hide_title=true&hide_border=true&theme=tokyonight" />
+  <img height="165" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kalaser&layout=compact&hide_title=true&hide_border=true&theme=tokyonight" />
+</p>
+
+## Contributions
+
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kalaser/Kalaser/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kalaser/Kalaser/output/github-contribution-grid-snake.svg" />
+    <img alt="Contribution activity" src="https://raw.githubusercontent.com/Kalaser/Kalaser/output/github-contribution-grid-snake.svg" />
+  </picture>
+</p>
 
 ---
 
-## 🌟 关于我
-- 🔭 目前正在学习 **C++ / Python / Java**
-- 🌱 目前在玩 **AI**
-- 💡 主要方向 **嵌入式 & C++开发**
-- ⚡ 兴趣爱好：蓝调音乐🎯 / 即时战略游戏 🎮 / 科幻小说 ✨
----
-
-## 📅 今日更新
-
-⏰ 日期：<!--DATE-->2026-11-06 05:24:09
-
-💡 每日一句：<!--QUOTE-->Stay motivated!
-
-🖼️ 每日一图：
-![今日图片](https://github.com/Kalaser/Kalaser/blob/output/th.jpg)
----
-
-## 📊 GitHub 数据
 <p align="center">
-  <!-- GitHub 统计卡片 -->
-  <img src="https://github-readme-stats.vercel.app/api?username=Kalaser&show_icons=true&theme=radical" height="180px"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kalaser&layout=compact&theme=tokyonight" height="180px"/>
+  <sub>Last updated: <!-- LAST_UPDATED:START -->
+2026-11-06 06:46 UTC
+<!-- LAST_UPDATED:END --></sub>
 </p>
-
----
-## 🔥 HelloGitHub 热门仓库
-<!--POPULAR_REPOS-->
-1. [LoongForge](https://hellogithub.com/repository/baidu-baige/LoongForge)  
-   - 描述: 更快地训练大模型和具身模型  
-   - 简介: `LoongForge—更快地训练大模型和具身模型7该项目是百度开源的模型训练框架，支持主流的 LLM、VLM、扩散和具身模型。它采用多后端架构，提供开箱即用的配置和脚本，支持预训练、SFT 与 LoRA，适配 baidu-baige·Python·1 个月前5.6k`  
-   - 语言: `Python`  
-   - 更新时间: `2026-11-06 05:30:26`  
-
-2. [Filee](https://hellogithub.com/repository/KnifeLemon/Filee)  
-   - 描述: 拖一下就能转换格式的工具  
-   - 简介: `Filee—拖一下就能转换格式的工具3这是一款用 C# 开发的离线文件格式转换器，支持图片、PDF、Office 文档、电子书、音视频、压缩包、CAD 等 200 多种格式。操作简单，按住 CtrlKnifeLemon·C#·9 天前1.9k`  
-   - 语言: `C#`  
-   - 更新时间: `2026-11-06 05:30:26`  
-
-3. [aerial-tv](https://hellogithub.com/repository/pengchujin/aerial-tv)  
-   - 描述: 给电视换上 Apple TV 风格的桌面  
-   - 简介: `aerial-tv—给电视换上 Apple TV 风格的桌面1这是一款参照 tvOS 设计的开源 Android TV 桌面，没有广告和推荐流，开机自动进入，适用于小米、TCL、创维等国产电视，以及盒子和投影仪。它支持整理pengchujin·Kotlin·9 天前2.1k`  
-   - 语言: `Kotlin`  
-   - 更新时间: `2026-11-06 05:30:26`  
-
-4. [word-atlas](https://hellogithub.com/repository/designfuchen/word-atlas)  
-   - 描述: 一词一画的雅思背单词工具  
-   - 简介: `word-atlas—一词一画的雅思背单词工具2这是一款免费开源的雅思背单词网页应用，打开浏览器就能用，无需注册。它收录 7000 多个雅思核心词，每个词都配有一幅原创插画、两条原创例句和英美发音，基于 FSdesignfuchen·TypeScript·9 天前1.6k`  
-   - 语言: `TypeScript`  
-   - 更新时间: `2026-11-06 05:30:26`  
-
-5. [HowToLiveBetter](https://hellogithub.com/repository/eternity4719/HowToLiveBetter)  
-   - 描述: 《高性价比人生指南》  
-   - 简介: `HowToLiveBetter—《高性价比人生指南》这是一本介绍用少的钱、时间和精力，换回更多寿命、金钱的生活指南，涵盖长寿防病、急救、省钱理财、法律红线、失业救助、医保社保、恋爱婚育和创业合规等内容。eternity4719·HTML·9 天前3.1k`  
-   - 语言: `HTML`  
-   - 更新时间: `2026-11-06 05:30:26`  
-
-6. [everything](https://hellogithub.com/repository/HeyPuter/everything)  
-   - 描述: 从零打造商业软件的开源替代品  
-   - 简介: `everything—从零打造商业软件的开源替代品1这是由 Puter 团队发起的开源项目，目标是从零开始重新打造商业软件的免费开源替代品。目前已有 50 多款应用，包括 Excel、PPT、PS、AutoCADHeyPuter·JavaScript·9 天前1.9k`  
-   - 语言: `JavaScript`  
-   - 更新时间: `2026-11-06 05:30:26`  
-
-7. [PicLite](https://hellogithub.com/repository/amiaoapp/PicLite)  
-   - 描述: 极简的本地图片压缩工具  
-   - 简介: `PicLite—极简的本地图片压缩工具2这是一款图片与动图的本地处理工具，支持批量压缩、拖动对比画质、格式转换、缩放和添加水印，会自动比较 JPEG、WebP、PNG 等候选结果并选出体积更小的文件。amiaoapp·TypeScript·9 天前1.1k`  
-   - 语言: `TypeScript`  
-   - 更新时间: `2026-11-06 05:30:26`  
-
-8. [openGym](https://hellogithub.com/repository/DuarteSantos8/openGym)  
-   - 描述: 数据由自己掌控的健身记录应用  
-   - 简介: `openGym—数据由自己掌控的健身记录应用这是一款可自托管的健身和体重记录应用，没有订阅、广告和遥测，用 Docker 一行命令即可部署。它内置 5000 多个带动画演示的动作，支持按星期安排训练计划、DuarteSantos8·JavaScript·9 天前1.2k`  
-   - 语言: `JavaScript`  
-   - 更新时间: `2026-11-06 05:30:26`  
-
-<!--POPULAR_REPOS_END-->
----
-
-## 🛠 技术栈
-<p align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="40" height="40"/>
-</p>
-
----
-
-## 🏆 徽章 & 访客数
-![GitHub followers](https://img.shields.io/github/followers/Kalaser?style=social)
-![GitHub stars](https://img.shields.io/github/stars/Kalaser?style=social)
-![Visitor Count](https://komarev.com/ghpvc/?username=Kalaser&color=brightgreen)
-
----
-
-## 🐍 贪吃蛇
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Kalaser/Kalaser/output/github-contribution-grid-snake.svg" />
-</p>
-
----
-
-⭐️ 欢迎来到我的主页 😆
-
