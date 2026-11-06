@@ -70,6 +70,6 @@ I work on embedded firmware and the tooling around it.
 
 <p align="center">
   <sub>Last updated: <!-- LAST_UPDATED:START -->
-2026-11-06 06:46 UTC
+2026-11-06 06:53 UTC
 <!-- LAST_UPDATED:END --></sub>
 </p>
