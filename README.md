@@ -41,7 +41,6 @@ I work on embedded firmware and the tooling around it.
 | **[cpp-navigator](https://github.com/Kalaser/cpp-navigator)** | `TypeScript` | VS Code extension for fast C/C++ symbol indexing, navigation, and call-hierarchy exploration. |
 | **[Mythreadpool](https://github.com/Kalaser/Mythreadpool)** | `C` | Thread pool implemented from scratch with queues, mutexes, read-write locks, and condition variables. |
 | **[Kalaser_agent](https://github.com/Kalaser/Kalaser_agent)** | `TypeScript` | Experimental TypeScript agent runtime and developer tooling. |
-| **[kalaser_docmd](https://github.com/Kalaser/kalaser_docmd)** | `Docs` | Engineering notes and technical guides, published as a static documentation site. |
 | **[Folder-Encryption-Tool](https://github.com/Kalaser/Folder-Encryption-Tool)** | `-` | Desktop GUI for encrypting and decrypting files inside a folder. |
 | **[C-Cpp--learning](https://github.com/Kalaser/C-Cpp--learning)** | `C++` | Personal C/C++ learning notes, exercises, and small projects. |
 | **[OASIS](https://github.com/Kalaser/OASIS)** | `Sandbox` | Personal sandbox for experiments and prototypes. |
@@ -70,6 +69,6 @@ I work on embedded firmware and the tooling around it.
 
 <p align="center">
   <sub>Last updated: <!-- LAST_UPDATED:START -->
-2026-11-10 07:25 UTC
+2026-11-11 06:32 UTC
 <!-- LAST_UPDATED:END --></sub>
 </p>
