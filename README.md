@@ -69,6 +69,6 @@ I work on embedded firmware and the tooling around it.
 
 <p align="center">
   <sub>Last updated: <!-- LAST_UPDATED:START -->
-2026-11-17 07:59 UTC
+2026-11-18 07:35 UTC
 <!-- LAST_UPDATED:END --></sub>
 </p>
