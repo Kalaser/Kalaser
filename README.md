@@ -44,6 +44,7 @@ I work on embedded firmware and the tooling around it.
 | **[Folder-Encryption-Tool](https://github.com/Kalaser/Folder-Encryption-Tool)** | `-` | Desktop GUI for encrypting and decrypting files inside a folder. |
 | **[C-Cpp--learning](https://github.com/Kalaser/C-Cpp--learning)** | `C++` | Personal C/C++ learning notes, exercises, and small projects. |
 | **[OASIS](https://github.com/Kalaser/OASIS)** | `Sandbox` | Personal sandbox for experiments and prototypes. |
+| **[Embedded-Code-Library](https://github.com/Kalaser/Embedded-Code-Library)** | `JavaScript` | No description provided. |
 <!-- PROJECTS:END -->
 
 [All repositories](https://github.com/Kalaser?tab=repositories)
@@ -69,6 +70,6 @@ I work on embedded firmware and the tooling around it.
 
 <p align="center">
   <sub>Last updated: <!-- LAST_UPDATED:START -->
-2026-11-24 09:58 UTC
+2026-11-25 08:42 UTC
 <!-- LAST_UPDATED:END --></sub>
 </p>
